@@ -1,0 +1,10 @@
+{
+    "name": "staging",
+    "baseURL": "https://www.facebook.com/",
+    "credentials": {
+        "password": "secret_sauce",
+        "users": {
+            "standard": "standard_user"
+        }
+    }
+}

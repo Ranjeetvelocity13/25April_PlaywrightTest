@@ -1,0 +1,16 @@
+[2026-08-03 08:31:37] [INFO] BasePage initialized for page: about:blank
+[2026-08-03 08:31:37] [INFO] BasePage initialized for page: about:blank
+[2026-08-03 08:31:37] [INFO] STEP 1: Opening Login page
+[2026-08-03 08:31:37] [INFO] STEP 1: Navigating to: /
+[2026-08-03 08:31:38] [INFO] Navigation completed to: /
+[2026-08-03 08:31:38] [INFO] Login page opened successfully
+[2026-08-03 08:31:38] [INFO] STEP 2: Performing login flow
+[2026-08-03 08:31:38] [INFO] STEP 3: Filling locator with provided text
+[2026-08-03 08:31:38] [INFO] Fill action completed successfully
+[2026-08-03 08:31:38] [INFO] STEP 3: Filling locator with provided text
+[2026-08-03 08:31:38] [INFO] Fill action completed successfully
+[2026-08-03 08:31:38] [INFO] STEP 2: Clicking locator
+[2026-08-03 08:31:43] [INFO] Click action completed successfully
+[2026-08-03 08:31:43] [INFO] Login submission completed
+[2026-08-03 08:31:43] [INFO] STEP 3: Checking whether inventory page is loaded
+[2026-08-03 08:31:43] [INFO] Inventory page loaded status: true

@@ -1,0 +1,24 @@
+{
+  "name": "25_april_playwrightframework",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "rm -rf reports/allure-results reports/allure-report && playwright test",
+    "report:html": "playwright show-report reports/html-report",
+    "allure:generate": "allure generate reports/allure-results --clean -o reports/allure-report",
+    "allure:open": "allure open reports/allure-report",
+    "allure:serve": "allure serve reports/allure-results"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "type": "commonjs",
+  "devDependencies": {
+    "@playwright/test": "^1.62.0",
+    "@types/node": "^26.1.2",
+    "allure-playwright": "^3.10.2",
+    "dotenv": "^17.4.2",
+    "winston": "^3.19.0"
+  }
+}

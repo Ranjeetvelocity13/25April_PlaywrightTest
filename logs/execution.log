@@ -1,0 +1,1862 @@
+[2026-08-01 08:08:30] [INFO] BasePage initialized for page: about:blank
+[2026-08-01 08:08:30] [INFO] STEP 1: Opening Login page
+[2026-08-01 08:08:30] [INFO] STEP 1: Navigating to: /
+[2026-08-01 08:08:31] [INFO] BasePage initialized for page: about:blank
+[2026-08-01 08:08:31] [INFO] Navigation completed to: /
+[2026-08-01 08:08:31] [INFO] BasePage initialized for page: about:blank
+[2026-08-01 08:08:31] [INFO] ========== TEST START: Valid use can log in ==========
+[2026-08-01 08:08:31] [INFO] STEP 1: Starting login validation test
+[2026-08-01 08:08:31] [INFO] STEP 1: Opening Login page
+[2026-08-01 08:08:31] [INFO] STEP 1: Navigating to: /
+[2026-08-01 08:08:31] [INFO] Login page opened successfully
+[2026-08-01 08:08:31] [INFO] STEP 2: Performing login flow
+[2026-08-01 08:08:31] [INFO] STEP 3: Filling locator with provided text
+[2026-08-01 08:08:31] [INFO] Fill action completed successfully
+[2026-08-01 08:08:31] [INFO] STEP 3: Filling locator with provided text
+[2026-08-01 08:08:31] [INFO] Fill action completed successfully
+[2026-08-01 08:08:31] [INFO] STEP 2: Clicking locator
+[2026-08-01 08:08:32] [INFO] Navigation completed to: /
+[2026-08-01 08:08:32] [INFO] Click action completed successfully
+[2026-08-01 08:08:32] [INFO] Login page opened successfully
+[2026-08-01 08:08:32] [INFO] STEP 2: Performing login flow
+[2026-08-01 08:08:32] [INFO] STEP 3: Filling locator with provided text
+[2026-08-01 08:08:32] [INFO] Login submission completed
+[2026-08-01 08:08:32] [INFO] BasePage initialized for page: https://www.saucedemo.com/inventory.html
+[2026-08-01 08:08:32] [INFO] ========== TEST START: Valid user can log in with ==========
+[2026-08-01 08:08:32] [INFO] STEP 1: Adding Sauce Labs Backpack to cart
+[2026-08-01 08:08:32] [INFO] STEP 1: Adding product to cart: Sauce Labs Backpack
+[2026-08-01 08:08:32] [INFO] STEP 2: Clicking locator
+[2026-08-01 08:08:32] [INFO] Click action completed successfully
+[2026-08-01 08:08:32] [INFO] Fill action completed successfully
+[2026-08-01 08:08:32] [INFO] Product added to cart: Sauce Labs Backpack
+[2026-08-01 08:08:32] [INFO] STEP 3: Filling locator with provided text
+[2026-08-01 08:08:32] [INFO] Fill action completed successfully
+[2026-08-01 08:08:32] [INFO] STEP 2: Clicking locator
+[2026-08-01 08:08:32] [INFO] Click action completed successfully
+[2026-08-01 08:08:32] [INFO] Login submission completed
+[2026-08-01 08:08:32] [INFO] STEP 3: Checking whether inventory page is loaded
+[2026-08-01 08:08:32] [INFO] Inventory page loaded status: true
+[2026-08-01 08:08:32] [INFO] STEP 2: Login validation completed successfully
+[2026-08-01 08:08:32] [INFO] ✅ TEST PASSED: Valid use can log in
+[2026-08-01 08:08:37] [INFO] STEP 2: Cart action completed
+[2026-08-01 08:08:37] [INFO] ✅ TEST PASSED: Valid user can log in with
+[2026-08-01 08:13:00] [INFO] ========== TEST START: Failure check ==========
+[2026-08-01 08:13:00] [INFO] STEP 1: Executing failing assertion
+[2026-08-01 08:13:00] [ERROR] ❌ TEST FAILED: Failure Check | Error: Error: expect(received).toBe(expected) // Object.is equality
+
+Expected: 2
+Received: 1
+[2026-08-01 08:13:03] [INFO] BasePage initialized for page: about:blank
+[2026-08-01 08:13:04] [INFO] BasePage initialized for page: about:blank
+[2026-08-01 08:13:04] [INFO] BasePage initialized for page: about:blank
+[2026-08-01 08:13:04] [INFO] ========== TEST START: Valid use can log in ==========
+[2026-08-01 08:13:04] [INFO] STEP 1: Starting login validation test
+[2026-08-01 08:13:04] [INFO] STEP 1: Opening Login page
+[2026-08-01 08:13:04] [INFO] STEP 1: Navigating to: /
+[2026-08-01 08:13:04] [INFO] STEP 1: Opening Login page
+[2026-08-01 08:13:04] [INFO] STEP 1: Navigating to: /
+[2026-08-01 08:13:04] [INFO] Navigation completed to: /
+[2026-08-01 08:13:04] [INFO] Login page opened successfully
+[2026-08-01 08:13:04] [INFO] STEP 2: Performing login flow
+[2026-08-01 08:13:04] [INFO] STEP 3: Filling locator with provided text
+[2026-08-01 08:13:05] [INFO] Navigation completed to: /
+[2026-08-01 08:13:05] [INFO] Login page opened successfully
+[2026-08-01 08:13:05] [INFO] STEP 2: Performing login flow
+[2026-08-01 08:13:05] [INFO] STEP 3: Filling locator with provided text
+[2026-08-01 08:13:05] [INFO] Fill action completed successfully
+[2026-08-01 08:13:05] [INFO] Fill action completed successfully
+[2026-08-01 08:13:05] [INFO] STEP 3: Filling locator with provided text
+[2026-08-01 08:13:05] [INFO] STEP 3: Filling locator with provided text
+[2026-08-01 08:13:05] [INFO] Fill action completed successfully
+[2026-08-01 08:13:05] [INFO] STEP 2: Clicking locator
+[2026-08-01 08:13:05] [INFO] Fill action completed successfully
+[2026-08-01 08:13:05] [INFO] STEP 2: Clicking locator
+[2026-08-01 08:13:05] [INFO] Click action completed successfully
+[2026-08-01 08:13:05] [INFO] Click action completed successfully
+[2026-08-01 08:13:05] [INFO] Login submission completed
+[2026-08-01 08:13:05] [INFO] STEP 3: Checking whether inventory page is loaded
+[2026-08-01 08:13:05] [INFO] Login submission completed
+[2026-08-01 08:13:05] [INFO] BasePage initialized for page: https://www.saucedemo.com/inventory.html
+[2026-08-01 08:13:05] [INFO] ========== TEST START: Valid user can log in with ==========
+[2026-08-01 08:13:05] [INFO] STEP 1: Adding Sauce Labs Backpack to cart
+[2026-08-01 08:13:05] [INFO] STEP 1: Adding product to cart: Sauce Labs Backpack
+[2026-08-01 08:13:05] [INFO] STEP 2: Clicking locator
+[2026-08-01 08:13:05] [INFO] Inventory page loaded status: true
+[2026-08-01 08:13:06] [INFO] Click action completed successfully
+[2026-08-01 08:13:06] [INFO] Product added to cart: Sauce Labs Backpack
+[2026-08-01 08:13:05] [INFO] STEP 2: Login validation completed successfully
+[2026-08-01 08:13:05] [INFO] ✅ TEST PASSED: Valid use can log in
+[2026-08-01 08:13:11] [INFO] STEP 2: Cart action completed
+[2026-08-01 08:13:11] [INFO] ✅ TEST PASSED: Valid user can log in with
+[2026-08-01 08:13:58] [INFO] ========== TEST START: Failure check ==========
+[2026-08-01 08:13:58] [INFO] STEP 1: Executing failing assertion
+[2026-08-01 08:13:58] [ERROR] ❌ TEST FAILED: Failure Check | Error: Error: expect(received).toBe(expected) // Object.is equality
+
+Expected: 2
+Received: 1
+[2026-08-01 08:14:01] [INFO] BasePage initialized for page: about:blank
+[2026-08-01 08:14:01] [INFO] BasePage initialized for page: about:blank
+[2026-08-01 08:14:01] [INFO] ========== TEST START: Valid use can log in ==========
+[2026-08-01 08:14:01] [INFO] STEP 1: Starting login validation test
+[2026-08-01 08:14:01] [INFO] STEP 1: Opening Login page
+[2026-08-01 08:14:01] [INFO] STEP 1: Navigating to: /
+[2026-08-01 08:14:02] [INFO] BasePage initialized for page: about:blank
+[2026-08-01 08:14:02] [INFO] STEP 1: Opening Login page
+[2026-08-01 08:14:02] [INFO] STEP 1: Navigating to: /
+[2026-08-01 08:14:02] [INFO] Navigation completed to: /
+[2026-08-01 08:14:02] [INFO] Login page opened successfully
+[2026-08-01 08:14:02] [INFO] STEP 2: Performing login flow
+[2026-08-01 08:14:02] [INFO] STEP 3: Filling locator with provided text
+[2026-08-01 08:14:02] [INFO] Fill action completed successfully
+[2026-08-01 08:14:02] [INFO] STEP 3: Filling locator with provided text
+[2026-08-01 08:14:02] [INFO] Fill action completed successfully
+[2026-08-01 08:14:02] [INFO] STEP 2: Clicking locator
+[2026-08-01 08:14:03] [INFO] Click action completed successfully
+[2026-08-01 08:14:03] [INFO] Login submission completed
+[2026-08-01 08:14:03] [INFO] STEP 3: Checking whether inventory page is loaded
+[2026-08-01 08:14:03] [INFO] Inventory page loaded status: true
+[2026-08-01 08:14:03] [INFO] STEP 2: Login validation completed successfully
+[2026-08-01 08:14:03] [INFO] ✅ TEST PASSED: Valid use can log in
+[2026-08-01 08:14:03] [INFO] Navigation completed to: /
+[2026-08-01 08:14:03] [INFO] Login page opened successfully
+[2026-08-01 08:14:03] [INFO] STEP 2: Performing login flow
+[2026-08-01 08:14:03] [INFO] STEP 3: Filling locator with provided text
+[2026-08-01 08:14:04] [INFO] Fill action completed successfully
+[2026-08-01 08:14:04] [INFO] STEP 3: Filling locator with provided text
+[2026-08-01 08:14:04] [INFO] Fill action completed successfully
+[2026-08-01 08:14:04] [INFO] STEP 2: Clicking locator
+[2026-08-01 08:14:04] [INFO] Click action completed successfully
+[2026-08-01 08:14:04] [INFO] Login submission completed
+[2026-08-01 08:14:04] [INFO] BasePage initialized for page: https://www.saucedemo.com/inventory.html
+[2026-08-01 08:14:04] [INFO] ========== TEST START: Valid user can log in with ==========
+[2026-08-01 08:14:04] [INFO] STEP 1: Adding Sauce Labs Backpack to cart
+[2026-08-01 08:14:04] [INFO] STEP 1: Adding product to cart: Sauce Labs Backpack
+[2026-08-01 08:14:04] [INFO] STEP 2: Clicking locator
+[2026-08-01 08:14:04] [INFO] Click action completed successfully
+[2026-08-01 08:14:04] [INFO] Product added to cart: Sauce Labs Backpack
+[2026-08-01 08:14:09] [INFO] STEP 2: Cart action completed
+[2026-08-01 08:14:09] [INFO] ✅ TEST PASSED: Valid user can log in with
+[2026-08-02 23:37:31] [INFO] BasePage initialized for page: about:blank
+[2026-08-02 23:37:31] [INFO] BasePage initialized for page: about:blank
+[2026-08-02 23:37:31] [INFO] STEP 1: Opening Login page
+[2026-08-02 23:37:31] [INFO] STEP 1: Navigating to: /
+[2026-08-02 23:37:31] [INFO] BasePage initialized for page: about:blank
+[2026-08-02 23:37:31] [INFO] BasePage initialized for page: about:blank
+[2026-08-02 23:37:31] [INFO] BasePage initialized for page: about:blank
+[2026-08-02 23:37:31] [INFO] ========== TEST START: Valid use can log in ==========
+[2026-08-02 23:37:31] [INFO] STEP 1: Starting login validation test
+[2026-08-02 23:37:31] [INFO] STEP 1: Opening Login page
+[2026-08-02 23:37:31] [INFO] STEP 1: Navigating to: /
+[2026-08-02 23:37:31] [INFO] BasePage initialized for page: about:blank
+[2026-08-02 23:37:31] [INFO] STEP 1: Opening Login page
+[2026-08-02 23:37:31] [INFO] STEP 1: Navigating to: /
+[2026-08-02 23:37:32] [INFO] BasePage initialized for page: about:blank
+[2026-08-02 23:37:32] [INFO] BasePage initialized for page: about:blank
+[2026-08-02 23:37:32] [INFO] STEP 1: Opening Login page
+[2026-08-02 23:37:32] [INFO] STEP 1: Navigating to: /
+[2026-08-02 23:37:32] [INFO] Navigation completed to: /
+[2026-08-02 23:37:32] [INFO] Navigation completed to: /
+[2026-08-02 23:37:32] [INFO] Navigation completed to: /
+[2026-08-02 23:37:32] [INFO] Login page opened successfully
+[2026-08-02 23:37:32] [INFO] STEP 2: Performing login flow
+[2026-08-02 23:37:32] [INFO] STEP 3: Filling locator with provided text
+[2026-08-02 23:37:32] [INFO] Login page opened successfully
+[2026-08-02 23:37:32] [INFO] STEP 2: Performing login flow
+[2026-08-02 23:37:32] [INFO] STEP 3: Filling locator with provided text
+[2026-08-02 23:37:32] [INFO] Navigation completed to: /
+[2026-08-02 23:37:32] [INFO] Login page opened successfully
+[2026-08-02 23:37:32] [INFO] STEP 2: Performing login flow
+[2026-08-02 23:37:32] [INFO] STEP 3: Filling locator with provided text
+[2026-08-02 23:37:32] [INFO] Login page opened successfully
+[2026-08-02 23:37:32] [INFO] STEP 2: Performing login flow
+[2026-08-02 23:37:32] [INFO] STEP 3: Filling locator with provided text
+[2026-08-02 23:37:32] [INFO] Fill action completed successfully
+[2026-08-02 23:37:32] [INFO] Fill action completed successfully
+[2026-08-02 23:37:32] [INFO] Fill action completed successfully
+[2026-08-02 23:37:32] [INFO] STEP 3: Filling locator with provided text
+[2026-08-02 23:37:32] [INFO] STEP 3: Filling locator with provided text
+[2026-08-02 23:37:32] [INFO] STEP 3: Filling locator with provided text
+[2026-08-02 23:37:32] [INFO] Fill action completed successfully
+[2026-08-02 23:37:32] [INFO] STEP 3: Filling locator with provided text
+[2026-08-02 23:37:33] [INFO] Fill action completed successfully
+[2026-08-02 23:37:33] [INFO] Fill action completed successfully
+[2026-08-02 23:37:33] [INFO] Fill action completed successfully
+[2026-08-02 23:37:33] [INFO] STEP 2: Clicking locator
+[2026-08-02 23:37:33] [INFO] STEP 2: Clicking locator
+[2026-08-02 23:37:33] [INFO] STEP 2: Clicking locator
+[2026-08-02 23:37:33] [INFO] Fill action completed successfully
+[2026-08-02 23:37:33] [INFO] STEP 2: Clicking locator
+[2026-08-02 23:37:33] [INFO] Click action completed successfully
+[2026-08-02 23:37:33] [INFO] Login submission completed
+[2026-08-02 23:37:33] [INFO] STEP 3: Checking whether inventory page is loaded
+[2026-08-02 23:37:33] [INFO] Inventory page loaded status: true
+[2026-08-02 23:37:33] [INFO] Click action completed successfully
+[2026-08-02 23:37:33] [INFO] Login submission completed
+[2026-08-02 23:37:33] [INFO] STEP 3: Checking whether inventory page is loaded
+[2026-08-02 23:37:33] [INFO] Inventory page loaded status: true
+[2026-08-02 23:37:33] [INFO] Click action completed successfully
+[2026-08-02 23:37:33] [INFO] Login submission completed
+[2026-08-02 23:37:33] [INFO] STEP 3: Checking whether inventory page is loaded
+[2026-08-02 23:37:33] [INFO] Inventory page loaded status: true
+[2026-08-02 23:37:33] [INFO] STEP 2: Login validation completed successfully
+[2026-08-02 23:37:33] [INFO] ✅ TEST PASSED: Valid use can log in
+[2026-08-02 23:37:34] [INFO] BasePage initialized for page: about:blank
+[2026-08-02 23:37:34] [INFO] STEP 1: Opening Login page
+[2026-08-02 23:37:34] [INFO] STEP 1: Navigating to: /
+[2026-08-02 23:37:35] [INFO] Navigation completed to: /
+[2026-08-02 23:37:35] [INFO] Login page opened successfully
+[2026-08-02 23:37:35] [INFO] STEP 2: Performing login flow
+[2026-08-02 23:37:35] [INFO] STEP 3: Filling locator with provided text
+[2026-08-02 23:37:35] [INFO] Fill action completed successfully
+[2026-08-02 23:37:35] [INFO] STEP 3: Filling locator with provided text
+[2026-08-02 23:37:35] [INFO] Fill action completed successfully
+[2026-08-02 23:37:35] [INFO] STEP 2: Clicking locator
+[2026-08-02 23:37:35] [INFO] Click action completed successfully
+[2026-08-02 23:37:35] [INFO] Login submission completed
+[2026-08-02 23:37:35] [INFO] BasePage initialized for page: https://www.saucedemo.com/inventory.html
+[2026-08-02 23:37:35] [INFO] ========== TEST START: Valid user can log in with ==========
+[2026-08-02 23:37:35] [INFO] STEP 1: Adding Sauce Labs Backpack to cart
+[2026-08-02 23:37:35] [INFO] STEP 1: Adding product to cart: Sauce Labs Backpack
+[2026-08-02 23:37:35] [INFO] STEP 2: Clicking locator
+[2026-08-02 23:37:35] [INFO] Click action completed successfully
+[2026-08-02 23:37:35] [INFO] Product added to cart: Sauce Labs Backpack
+[2026-08-02 23:37:38] [INFO] Click action completed successfully
+[2026-08-02 23:37:38] [INFO] Login submission completed
+[2026-08-02 23:37:38] [INFO] STEP 3: Checking whether inventory page is loaded
+[2026-08-02 23:37:38] [INFO] Inventory page loaded status: true
+[2026-08-02 23:37:40] [INFO] STEP 2: Cart action completed
+[2026-08-02 23:37:40] [INFO] ✅ TEST PASSED: Valid user can log in with
+[2026-08-02 23:38:21] [INFO] BasePage initialized for page: about:blank
+[2026-08-02 23:38:21] [INFO] BasePage initialized for page: about:blank
+[2026-08-02 23:38:21] [INFO] BasePage initialized for page: about:blank
+[2026-08-02 23:38:21] [INFO] STEP 1: Opening Login page
+[2026-08-02 23:38:21] [INFO] STEP 1: Navigating to: /
+[2026-08-02 23:38:21] [INFO] BasePage initialized for page: about:blank
+[2026-08-02 23:38:21] [INFO] STEP 1: Opening Login page
+[2026-08-02 23:38:21] [INFO] STEP 1: Navigating to: /
+[2026-08-02 23:38:21] [INFO] BasePage initialized for page: about:blank
+[2026-08-02 23:38:21] [INFO] BasePage initialized for page: about:blank
+[2026-08-02 23:38:21] [INFO] STEP 1: Opening Login page
+[2026-08-02 23:38:21] [INFO] STEP 1: Navigating to: /
+[2026-08-02 23:38:21] [INFO] BasePage initialized for page: about:blank
+[2026-08-02 23:38:21] [INFO] BasePage initialized for page: about:blank
+[2026-08-02 23:38:21] [INFO] STEP 1: Opening Login page
+[2026-08-02 23:38:21] [INFO] STEP 1: Navigating to: /
+[2026-08-02 23:38:22] [INFO] Navigation completed to: /
+[2026-08-02 23:38:22] [INFO] Navigation completed to: /
+[2026-08-02 23:38:22] [INFO] Navigation completed to: /
+[2026-08-02 23:38:22] [INFO] Login page opened successfully
+[2026-08-02 23:38:22] [INFO] STEP 2: Performing login flow
+[2026-08-02 23:38:22] [INFO] STEP 3: Filling locator with provided text
+[2026-08-02 23:38:22] [INFO] Login page opened successfully
+[2026-08-02 23:38:22] [INFO] STEP 2: Performing login flow
+[2026-08-02 23:38:22] [INFO] STEP 3: Filling locator with provided text
+[2026-08-02 23:38:22] [INFO] Login page opened successfully
+[2026-08-02 23:38:22] [INFO] STEP 2: Performing login flow
+[2026-08-02 23:38:22] [INFO] STEP 3: Filling locator with provided text
+[2026-08-02 23:38:22] [INFO] Navigation completed to: /
+[2026-08-02 23:38:22] [INFO] Fill action completed successfully
+[2026-08-02 23:38:22] [INFO] Login page opened successfully
+[2026-08-02 23:38:22] [INFO] STEP 2: Performing login flow
+[2026-08-02 23:38:22] [INFO] STEP 3: Filling locator with provided text
+[2026-08-02 23:38:22] [INFO] STEP 3: Filling locator with provided text
+[2026-08-02 23:38:22] [INFO] Fill action completed successfully
+[2026-08-02 23:38:22] [INFO] STEP 3: Filling locator with provided text
+[2026-08-02 23:38:22] [INFO] Fill action completed successfully
+[2026-08-02 23:38:22] [INFO] STEP 3: Filling locator with provided text
+[2026-08-02 23:38:22] [INFO] Fill action completed successfully
+[2026-08-02 23:38:22] [INFO] STEP 2: Clicking locator
+[2026-08-02 23:38:22] [INFO] Fill action completed successfully
+[2026-08-02 23:38:22] [INFO] STEP 3: Filling locator with provided text
+[2026-08-02 23:38:22] [INFO] Fill action completed successfully
+[2026-08-02 23:38:22] [INFO] Fill action completed successfully
+[2026-08-02 23:38:22] [INFO] STEP 2: Clicking locator
+[2026-08-02 23:38:22] [INFO] STEP 2: Clicking locator
+[2026-08-02 23:38:22] [INFO] Fill action completed successfully
+[2026-08-02 23:38:22] [INFO] Click action completed successfully
+[2026-08-02 23:38:22] [INFO] Click action completed successfully
+[2026-08-02 23:38:22] [INFO] Login submission completed
+[2026-08-02 23:38:22] [INFO] STEP 3: Checking whether inventory page is loaded
+[2026-08-02 23:38:22] [INFO] STEP 2: Clicking locator
+[2026-08-02 23:38:22] [INFO] Inventory page loaded status: true
+[2026-08-02 23:38:22] [INFO] Login submission completed
+[2026-08-02 23:38:22] [INFO] STEP 3: Checking whether inventory page is loaded
+[2026-08-02 23:38:22] [INFO] Inventory page loaded status: true
+[2026-08-02 23:38:22] [INFO] Click action completed successfully
+[2026-08-02 23:38:22] [INFO] Login submission completed
+[2026-08-02 23:38:22] [INFO] STEP 3: Checking whether inventory page is loaded
+[2026-08-02 23:38:23] [INFO] Inventory page loaded status: false
+[2026-08-02 23:38:23] [ERROR] ❌ TEST FAILED: valid user "lockedOut" can log in | Error: Error: expect(received).toBeTruthy()
+
+Received: false
+[2026-08-02 23:38:24] [INFO] BasePage initialized for page: about:blank
+[2026-08-02 23:38:24] [INFO] BasePage initialized for page: about:blank
+[2026-08-02 23:38:24] [INFO] STEP 1: Opening Login page
+[2026-08-02 23:38:24] [INFO] STEP 1: Navigating to: /
+[2026-08-02 23:38:24] [INFO] BasePage initialized for page: about:blank
+[2026-08-02 23:38:24] [INFO] ========== TEST START: Valid use can log in ==========
+[2026-08-02 23:38:24] [INFO] STEP 1: Starting login validation test
+[2026-08-02 23:38:24] [INFO] STEP 1: Opening Login page
+[2026-08-02 23:38:24] [INFO] STEP 1: Navigating to: /
+[2026-08-02 23:38:24] [INFO] Navigation completed to: /
+[2026-08-02 23:38:24] [INFO] Login page opened successfully
+[2026-08-02 23:38:24] [INFO] STEP 2: Performing login flow
+[2026-08-02 23:38:24] [INFO] STEP 3: Filling locator with provided text
+[2026-08-02 23:38:24] [INFO] Navigation completed to: /
+[2026-08-02 23:38:24] [INFO] Login page opened successfully
+[2026-08-02 23:38:24] [INFO] STEP 2: Performing login flow
+[2026-08-02 23:38:24] [INFO] STEP 3: Filling locator with provided text
+[2026-08-02 23:38:24] [INFO] Fill action completed successfully
+[2026-08-02 23:38:24] [INFO] STEP 3: Filling locator with provided text
+[2026-08-02 23:38:24] [INFO] Fill action completed successfully
+[2026-08-02 23:38:24] [INFO] STEP 3: Filling locator with provided text
+[2026-08-02 23:38:24] [INFO] Fill action completed successfully
+[2026-08-02 23:38:24] [INFO] STEP 2: Clicking locator
+[2026-08-02 23:38:24] [INFO] Fill action completed successfully
+[2026-08-02 23:38:24] [INFO] STEP 2: Clicking locator
+[2026-08-02 23:38:24] [INFO] Click action completed successfully
+[2026-08-02 23:38:24] [INFO] Login submission completed
+[2026-08-02 23:38:24] [INFO] BasePage initialized for page: https://www.saucedemo.com/inventory.html
+[2026-08-02 23:38:24] [INFO] ========== TEST START: Valid user can log in with ==========
+[2026-08-02 23:38:24] [INFO] STEP 1: Adding Sauce Labs Backpack to cart
+[2026-08-02 23:38:24] [INFO] STEP 1: Adding product to cart: Sauce Labs Backpack
+[2026-08-02 23:38:24] [INFO] STEP 2: Clicking locator
+[2026-08-02 23:38:24] [INFO] Click action completed successfully
+[2026-08-02 23:38:24] [INFO] Login submission completed
+[2026-08-02 23:38:24] [INFO] STEP 3: Checking whether inventory page is loaded
+[2026-08-02 23:38:24] [INFO] Inventory page loaded status: true
+[2026-08-02 23:38:24] [INFO] STEP 2: Login validation completed successfully
+[2026-08-02 23:38:24] [INFO] ✅ TEST PASSED: Valid use can log in
+[2026-08-02 23:38:24] [INFO] Click action completed successfully
+[2026-08-02 23:38:24] [INFO] Product added to cart: Sauce Labs Backpack
+[2026-08-02 23:38:27] [INFO] Click action completed successfully
+[2026-08-02 23:38:27] [INFO] Login submission completed
+[2026-08-02 23:38:27] [INFO] STEP 3: Checking whether inventory page is loaded
+[2026-08-02 23:38:27] [INFO] Inventory page loaded status: true
+[2026-08-02 23:38:29] [INFO] STEP 2: Cart action completed
+[2026-08-02 23:38:29] [INFO] ✅ TEST PASSED: Valid user can log in with
+[2026-08-02 23:41:08] [INFO] BasePage initialized for page: about:blank
+[2026-08-02 23:41:08] [INFO] BasePage initialized for page: about:blank
+[2026-08-02 23:41:08] [INFO] BasePage initialized for page: about:blank
+[2026-08-02 23:41:08] [INFO] BasePage initialized for page: about:blank
+[2026-08-02 23:41:08] [INFO] STEP 1: Opening Login page
+[2026-08-02 23:41:08] [INFO] STEP 1: Navigating to: /
+[2026-08-02 23:41:08] [INFO] BasePage initialized for page: about:blank
+[2026-08-02 23:41:08] [INFO] STEP 1: Opening Login page
+[2026-08-02 23:41:08] [INFO] STEP 1: Navigating to: /
+[2026-08-02 23:41:08] [INFO] BasePage initialized for page: about:blank
+[2026-08-02 23:41:08] [INFO] STEP 1: Opening Login page
+[2026-08-02 23:41:08] [INFO] STEP 1: Navigating to: /
+[2026-08-02 23:41:08] [INFO] BasePage initialized for page: about:blank
+[2026-08-02 23:41:08] [INFO] BasePage initialized for page: about:blank
+[2026-08-02 23:41:08] [INFO] STEP 1: Opening Login page
+[2026-08-02 23:41:08] [INFO] STEP 1: Navigating to: /
+[2026-08-02 23:41:09] [INFO] Navigation completed to: /
+[2026-08-02 23:41:09] [INFO] Navigation completed to: /
+[2026-08-02 23:41:09] [INFO] Login page opened successfully
+[2026-08-02 23:41:09] [INFO] STEP 2: Performing login flow
+[2026-08-02 23:41:09] [INFO] STEP 3: Filling locator with provided text
+[2026-08-02 23:41:09] [INFO] Login page opened successfully
+[2026-08-02 23:41:09] [INFO] STEP 2: Performing login flow
+[2026-08-02 23:41:09] [INFO] STEP 3: Filling locator with provided text
+[2026-08-02 23:41:09] [INFO] Navigation completed to: /
+[2026-08-02 23:41:09] [INFO] Login page opened successfully
+[2026-08-02 23:41:09] [INFO] STEP 2: Performing login flow
+[2026-08-02 23:41:09] [INFO] STEP 3: Filling locator with provided text
+[2026-08-02 23:41:09] [INFO] Fill action completed successfully
+[2026-08-02 23:41:09] [INFO] STEP 3: Filling locator with provided text
+[2026-08-02 23:41:09] [INFO] Fill action completed successfully
+[2026-08-02 23:41:09] [INFO] STEP 3: Filling locator with provided text
+[2026-08-02 23:41:09] [INFO] Navigation completed to: /
+[2026-08-02 23:41:09] [INFO] Login page opened successfully
+[2026-08-02 23:41:09] [INFO] STEP 2: Performing login flow
+[2026-08-02 23:41:09] [INFO] STEP 3: Filling locator with provided text
+[2026-08-02 23:41:09] [INFO] Fill action completed successfully
+[2026-08-02 23:41:09] [INFO] STEP 3: Filling locator with provided text
+[2026-08-02 23:41:09] [INFO] Fill action completed successfully
+[2026-08-02 23:41:09] [INFO] STEP 2: Clicking locator
+[2026-08-02 23:41:09] [INFO] Fill action completed successfully
+[2026-08-02 23:41:09] [INFO] Fill action completed successfully
+[2026-08-02 23:41:09] [INFO] STEP 2: Clicking locator
+[2026-08-02 23:41:09] [INFO] STEP 3: Filling locator with provided text
+[2026-08-02 23:41:09] [INFO] Fill action completed successfully
+[2026-08-02 23:41:09] [INFO] STEP 2: Clicking locator
+[2026-08-02 23:41:09] [INFO] Fill action completed successfully
+[2026-08-02 23:41:09] [INFO] STEP 2: Clicking locator
+[2026-08-02 23:41:09] [INFO] Click action completed successfully
+[2026-08-02 23:41:09] [INFO] Login submission completed
+[2026-08-02 23:41:09] [INFO] STEP 3: Checking whether inventory page is loaded
+[2026-08-02 23:41:10] [INFO] Click action completed successfully
+[2026-08-02 23:41:10] [INFO] Inventory page loaded status: false
+[2026-08-02 23:41:10] [INFO] Login submission completed
+[2026-08-02 23:41:10] [INFO] STEP 3: Checking whether inventory page is loaded
+[2026-08-02 23:41:10] [INFO] Inventory page loaded status: true
+[2026-08-02 23:41:10] [ERROR] ❌ TEST FAILED: valid user "lockedOut" can log in | Error: Error: expect(received).toBeTruthy()
+
+Received: false
+[2026-08-02 23:41:10] [INFO] Click action completed successfully
+[2026-08-02 23:41:10] [INFO] Login submission completed
+[2026-08-02 23:41:10] [INFO] STEP 3: Checking whether inventory page is loaded
+[2026-08-02 23:41:10] [INFO] Inventory page loaded status: true
+[2026-08-02 23:41:11] [INFO] BasePage initialized for page: about:blank
+[2026-08-02 23:41:11] [INFO] STEP 1: Opening Login page
+[2026-08-02 23:41:11] [INFO] STEP 1: Navigating to: /
+[2026-08-02 23:41:11] [INFO] BasePage initialized for page: about:blank
+[2026-08-02 23:41:11] [INFO] BasePage initialized for page: about:blank
+[2026-08-02 23:41:11] [INFO] ========== TEST START: Valid use can log in ==========
+[2026-08-02 23:41:11] [INFO] STEP 1: Starting login validation test
+[2026-08-02 23:41:11] [INFO] STEP 1: Opening Login page
+[2026-08-02 23:41:11] [INFO] STEP 1: Navigating to: /
+[2026-08-02 23:41:12] [INFO] Navigation completed to: /
+[2026-08-02 23:41:12] [INFO] Login page opened successfully
+[2026-08-02 23:41:12] [INFO] STEP 2: Performing login flow
+[2026-08-02 23:41:12] [INFO] STEP 3: Filling locator with provided text
+[2026-08-02 23:41:12] [INFO] Navigation completed to: /
+[2026-08-02 23:41:12] [INFO] Login page opened successfully
+[2026-08-02 23:41:12] [INFO] STEP 2: Performing login flow
+[2026-08-02 23:41:12] [INFO] STEP 3: Filling locator with provided text
+[2026-08-02 23:41:12] [INFO] Fill action completed successfully
+[2026-08-02 23:41:12] [INFO] STEP 3: Filling locator with provided text
+[2026-08-02 23:41:12] [INFO] Fill action completed successfully
+[2026-08-02 23:41:12] [INFO] STEP 3: Filling locator with provided text
+[2026-08-02 23:41:12] [INFO] Fill action completed successfully
+[2026-08-02 23:41:12] [INFO] Fill action completed successfully
+[2026-08-02 23:41:12] [INFO] STEP 2: Clicking locator
+[2026-08-02 23:41:12] [INFO] STEP 2: Clicking locator
+[2026-08-02 23:41:12] [INFO] Click action completed successfully
+[2026-08-02 23:41:12] [INFO] Login submission completed
+[2026-08-02 23:41:12] [INFO] STEP 3: Checking whether inventory page is loaded
+[2026-08-02 23:41:12] [INFO] Click action completed successfully
+[2026-08-02 23:41:12] [INFO] Inventory page loaded status: true
+[2026-08-02 23:41:12] [INFO] Login submission completed
+[2026-08-02 23:41:12] [INFO] BasePage initialized for page: https://www.saucedemo.com/inventory.html
+[2026-08-02 23:41:12] [INFO] ========== TEST START: Valid user can log in with ==========
+[2026-08-02 23:41:12] [INFO] STEP 1: Adding Sauce Labs Backpack to cart
+[2026-08-02 23:41:12] [INFO] STEP 1: Adding product to cart: Sauce Labs Backpack
+[2026-08-02 23:41:12] [INFO] STEP 2: Clicking locator
+[2026-08-02 23:41:12] [INFO] STEP 2: Login validation completed successfully
+[2026-08-02 23:41:12] [INFO] ✅ TEST PASSED: Valid use can log in
+[2026-08-02 23:41:12] [INFO] Click action completed successfully
+[2026-08-02 23:41:12] [INFO] Product added to cart: Sauce Labs Backpack
+[2026-08-02 23:41:14] [INFO] Click action completed successfully
+[2026-08-02 23:41:14] [INFO] Login submission completed
+[2026-08-02 23:41:14] [INFO] STEP 3: Checking whether inventory page is loaded
+[2026-08-02 23:41:15] [INFO] Inventory page loaded status: true
+[2026-08-02 23:41:17] [INFO] STEP 2: Cart action completed
+[2026-08-02 23:41:17] [INFO] ✅ TEST PASSED: Valid user can log in with
+[2026-08-02 23:44:58] [INFO] BasePage initialized for page: about:blank
+[2026-08-02 23:44:58] [INFO] BasePage initialized for page: about:blank
+[2026-08-02 23:44:58] [INFO] BasePage initialized for page: about:blank
+[2026-08-02 23:44:58] [INFO] BasePage initialized for page: about:blank
+[2026-08-02 23:44:58] [INFO] STEP 1: Opening Login page
+[2026-08-02 23:44:58] [INFO] STEP 1: Navigating to: /
+[2026-08-02 23:44:58] [INFO] BasePage initialized for page: about:blank
+[2026-08-02 23:44:58] [INFO] STEP 1: Opening Login page
+[2026-08-02 23:44:58] [INFO] STEP 1: Navigating to: /
+[2026-08-02 23:44:58] [INFO] BasePage initialized for page: about:blank
+[2026-08-02 23:44:58] [INFO] STEP 1: Opening Login page
+[2026-08-02 23:44:58] [INFO] STEP 1: Navigating to: /
+[2026-08-02 23:44:59] [INFO] BasePage initialized for page: about:blank
+[2026-08-02 23:44:59] [INFO] BasePage initialized for page: about:blank
+[2026-08-02 23:44:59] [INFO] STEP 1: Opening Login page
+[2026-08-02 23:44:59] [INFO] STEP 1: Navigating to: /
+[2026-08-02 23:44:59] [INFO] Navigation completed to: /
+[2026-08-02 23:44:59] [INFO] Navigation completed to: /
+[2026-08-02 23:44:59] [INFO] Navigation completed to: /
+[2026-08-02 23:44:59] [INFO] Login page opened successfully
+[2026-08-02 23:44:59] [INFO] STEP 2: Performing login flow
+[2026-08-02 23:44:59] [INFO] STEP 3: Filling locator with provided text
+[2026-08-02 23:44:59] [INFO] Login page opened successfully
+[2026-08-02 23:44:59] [INFO] STEP 2: Performing login flow
+[2026-08-02 23:44:59] [INFO] STEP 3: Filling locator with provided text
+[2026-08-02 23:44:59] [INFO] Login page opened successfully
+[2026-08-02 23:44:59] [INFO] STEP 2: Performing login flow
+[2026-08-02 23:44:59] [INFO] STEP 3: Filling locator with provided text
+[2026-08-02 23:44:59] [INFO] Fill action completed successfully
+[2026-08-02 23:44:59] [INFO] Fill action completed successfully
+[2026-08-02 23:44:59] [INFO] Fill action completed successfully
+[2026-08-02 23:44:59] [INFO] STEP 3: Filling locator with provided text
+[2026-08-02 23:44:59] [INFO] STEP 3: Filling locator with provided text
+[2026-08-02 23:44:59] [INFO] Navigation completed to: /
+[2026-08-02 23:44:59] [INFO] STEP 3: Filling locator with provided text
+[2026-08-02 23:44:59] [INFO] Login page opened successfully
+[2026-08-02 23:44:59] [INFO] STEP 2: Performing login flow
+[2026-08-02 23:44:59] [INFO] STEP 3: Filling locator with provided text
+[2026-08-02 23:45:00] [INFO] Fill action completed successfully
+[2026-08-02 23:45:00] [INFO] Fill action completed successfully
+[2026-08-02 23:45:00] [INFO] STEP 2: Clicking locator
+[2026-08-02 23:45:00] [INFO] STEP 2: Clicking locator
+[2026-08-02 23:45:00] [INFO] Fill action completed successfully
+[2026-08-02 23:45:00] [INFO] STEP 2: Clicking locator
+[2026-08-02 23:45:00] [INFO] Fill action completed successfully
+[2026-08-02 23:45:00] [INFO] STEP 3: Filling locator with provided text
+[2026-08-02 23:45:00] [INFO] Fill action completed successfully
+[2026-08-02 23:45:00] [INFO] Click action completed successfully
+[2026-08-02 23:45:00] [INFO] Login submission completed
+[2026-08-02 23:45:00] [INFO] STEP 3: Checking whether inventory page is loaded
+[2026-08-02 23:45:00] [INFO] Inventory page loaded status: true
+[2026-08-02 23:45:00] [INFO] Click action completed successfully
+[2026-08-02 23:45:00] [INFO] Login submission completed
+[2026-08-02 23:45:00] [INFO] STEP 3: Checking whether inventory page is loaded
+[2026-08-02 23:45:00] [INFO] Inventory page loaded status: true
+[2026-08-02 23:45:00] [INFO] STEP 2: Clicking locator
+[2026-08-02 23:45:00] [INFO] Click action completed successfully
+[2026-08-02 23:45:00] [INFO] Login submission completed
+[2026-08-02 23:45:00] [ERROR] ❌ TEST FAILED: Login Test - lockedOut | Error: Error: toHaveText can be only used with Locator object, was called with undefined
+[2026-08-02 23:45:01] [INFO] BasePage initialized for page: about:blank
+[2026-08-02 23:45:01] [INFO] BasePage initialized for page: about:blank
+[2026-08-02 23:45:01] [INFO] BasePage initialized for page: about:blank
+[2026-08-02 23:45:01] [INFO] ========== TEST START: Valid use can log in ==========
+[2026-08-02 23:45:01] [INFO] STEP 1: Starting login validation test
+[2026-08-02 23:45:01] [INFO] STEP 1: Opening Login page
+[2026-08-02 23:45:01] [INFO] STEP 1: Navigating to: /
+[2026-08-02 23:45:01] [INFO] STEP 1: Opening Login page
+[2026-08-02 23:45:01] [INFO] STEP 1: Navigating to: /
+[2026-08-02 23:45:02] [INFO] Navigation completed to: /
+[2026-08-02 23:45:02] [INFO] Navigation completed to: /
+[2026-08-02 23:45:02] [INFO] Login page opened successfully
+[2026-08-02 23:45:02] [INFO] STEP 2: Performing login flow
+[2026-08-02 23:45:02] [INFO] STEP 3: Filling locator with provided text
+[2026-08-02 23:45:02] [INFO] Login page opened successfully
+[2026-08-02 23:45:02] [INFO] STEP 2: Performing login flow
+[2026-08-02 23:45:02] [INFO] STEP 3: Filling locator with provided text
+[2026-08-02 23:45:02] [INFO] Fill action completed successfully
+[2026-08-02 23:45:02] [INFO] STEP 3: Filling locator with provided text
+[2026-08-02 23:45:02] [INFO] Fill action completed successfully
+[2026-08-02 23:45:02] [INFO] STEP 3: Filling locator with provided text
+[2026-08-02 23:45:02] [INFO] Fill action completed successfully
+[2026-08-02 23:45:02] [INFO] Fill action completed successfully
+[2026-08-02 23:45:02] [INFO] STEP 2: Clicking locator
+[2026-08-02 23:45:02] [INFO] STEP 2: Clicking locator
+[2026-08-02 23:45:02] [INFO] Click action completed successfully
+[2026-08-02 23:45:02] [INFO] Login submission completed
+[2026-08-02 23:45:02] [INFO] BasePage initialized for page: https://www.saucedemo.com/inventory.html
+[2026-08-02 23:45:02] [INFO] ========== TEST START: Valid user can log in with ==========
+[2026-08-02 23:45:02] [INFO] STEP 1: Adding Sauce Labs Backpack to cart
+[2026-08-02 23:45:02] [INFO] STEP 1: Adding product to cart: Sauce Labs Backpack
+[2026-08-02 23:45:02] [INFO] STEP 2: Clicking locator
+[2026-08-02 23:45:02] [INFO] Click action completed successfully
+[2026-08-02 23:45:02] [INFO] Login submission completed
+[2026-08-02 23:45:02] [INFO] STEP 3: Checking whether inventory page is loaded
+[2026-08-02 23:45:02] [INFO] Inventory page loaded status: true
+[2026-08-02 23:45:02] [INFO] STEP 2: Login validation completed successfully
+[2026-08-02 23:45:02] [INFO] ✅ TEST PASSED: Valid use can log in
+[2026-08-02 23:45:02] [INFO] Click action completed successfully
+[2026-08-02 23:45:02] [INFO] Product added to cart: Sauce Labs Backpack
+[2026-08-02 23:45:05] [INFO] Click action completed successfully
+[2026-08-02 23:45:05] [INFO] Login submission completed
+[2026-08-02 23:45:05] [INFO] STEP 3: Checking whether inventory page is loaded
+[2026-08-02 23:45:05] [INFO] Inventory page loaded status: true
+[2026-08-02 23:45:07] [INFO] STEP 2: Cart action completed
+[2026-08-02 23:45:07] [INFO] ✅ TEST PASSED: Valid user can log in with
+[2026-08-02 23:46:43] [INFO] BasePage initialized for page: about:blank
+[2026-08-02 23:46:43] [INFO] BasePage initialized for page: about:blank
+[2026-08-02 23:46:43] [INFO] BasePage initialized for page: about:blank
+[2026-08-02 23:46:43] [INFO] BasePage initialized for page: about:blank
+[2026-08-02 23:46:43] [INFO] BasePage initialized for page: about:blank
+[2026-08-02 23:46:43] [INFO] STEP 1: Opening Login page
+[2026-08-02 23:46:43] [INFO] STEP 1: Navigating to: /
+[2026-08-02 23:46:43] [INFO] BasePage initialized for page: about:blank
+[2026-08-02 23:46:43] [INFO] STEP 1: Opening Login page
+[2026-08-02 23:46:43] [INFO] STEP 1: Navigating to: /
+[2026-08-02 23:46:43] [INFO] BasePage initialized for page: about:blank
+[2026-08-02 23:46:43] [INFO] STEP 1: Opening Login page
+[2026-08-02 23:46:43] [INFO] STEP 1: Navigating to: /
+[2026-08-02 23:46:43] [INFO] BasePage initialized for page: about:blank
+[2026-08-02 23:46:43] [INFO] STEP 1: Opening Login page
+[2026-08-02 23:46:43] [INFO] STEP 1: Navigating to: /
+[2026-08-02 23:46:43] [INFO] Navigation completed to: /
+[2026-08-02 23:46:43] [INFO] Navigation completed to: /
+[2026-08-02 23:46:43] [INFO] Navigation completed to: /
+[2026-08-02 23:46:43] [INFO] Login page opened successfully
+[2026-08-02 23:46:43] [INFO] STEP 2: Performing login flow
+[2026-08-02 23:46:43] [INFO] STEP 3: Filling locator with provided text
+[2026-08-02 23:46:43] [INFO] Navigation completed to: /
+[2026-08-02 23:46:43] [INFO] Login page opened successfully
+[2026-08-02 23:46:43] [INFO] STEP 2: Performing login flow
+[2026-08-02 23:46:43] [INFO] STEP 3: Filling locator with provided text
+[2026-08-02 23:46:43] [INFO] Login page opened successfully
+[2026-08-02 23:46:43] [INFO] STEP 2: Performing login flow
+[2026-08-02 23:46:43] [INFO] STEP 3: Filling locator with provided text
+[2026-08-02 23:46:43] [INFO] Login page opened successfully
+[2026-08-02 23:46:43] [INFO] STEP 2: Performing login flow
+[2026-08-02 23:46:43] [INFO] STEP 3: Filling locator with provided text
+[2026-08-02 23:46:44] [INFO] Fill action completed successfully
+[2026-08-02 23:46:44] [INFO] STEP 3: Filling locator with provided text
+[2026-08-02 23:46:44] [INFO] Fill action completed successfully
+[2026-08-02 23:46:44] [INFO] STEP 3: Filling locator with provided text
+[2026-08-02 23:46:44] [INFO] Fill action completed successfully
+[2026-08-02 23:46:44] [INFO] STEP 3: Filling locator with provided text
+[2026-08-02 23:46:44] [INFO] Fill action completed successfully
+[2026-08-02 23:46:44] [INFO] STEP 3: Filling locator with provided text
+[2026-08-02 23:46:44] [INFO] Fill action completed successfully
+[2026-08-02 23:46:44] [INFO] Fill action completed successfully
+[2026-08-02 23:46:44] [INFO] STEP 2: Clicking locator
+[2026-08-02 23:46:44] [INFO] STEP 2: Clicking locator
+[2026-08-02 23:46:44] [INFO] Fill action completed successfully
+[2026-08-02 23:46:44] [INFO] Fill action completed successfully
+[2026-08-02 23:46:44] [INFO] STEP 2: Clicking locator
+[2026-08-02 23:46:44] [INFO] STEP 2: Clicking locator
+[2026-08-02 23:46:45] [INFO] Click action completed successfully
+[2026-08-02 23:46:45] [INFO] Click action completed successfully
+[2026-08-02 23:46:45] [INFO] Click action completed successfully
+[2026-08-02 23:46:45] [INFO] Login submission completed
+[2026-08-02 23:46:45] [INFO] STEP 3: Checking whether inventory page is loaded
+[2026-08-02 23:46:45] [INFO] Login submission completed
+[2026-08-02 23:46:45] [INFO] STEP 3: Checking whether inventory page is loaded
+[2026-08-02 23:46:45] [INFO] Inventory page loaded status: true
+[2026-08-02 23:46:45] [INFO] Login submission completed
+[2026-08-02 23:46:45] [ERROR] ❌ TEST FAILED: Login Test - lockedOut | Error: TypeError: (0 , _baseFixture.expect)(...).to is not a function
+[2026-08-02 23:46:45] [INFO] Inventory page loaded status: true
+[2026-08-02 23:46:46] [INFO] BasePage initialized for page: about:blank
+[2026-08-02 23:46:46] [INFO] BasePage initialized for page: about:blank
+[2026-08-02 23:46:46] [INFO] STEP 1: Opening Login page
+[2026-08-02 23:46:46] [INFO] STEP 1: Navigating to: /
+[2026-08-02 23:46:46] [INFO] BasePage initialized for page: about:blank
+[2026-08-02 23:46:46] [INFO] ========== TEST START: Valid use can log in ==========
+[2026-08-02 23:46:46] [INFO] STEP 1: Starting login validation test
+[2026-08-02 23:46:46] [INFO] STEP 1: Opening Login page
+[2026-08-02 23:46:46] [INFO] STEP 1: Navigating to: /
+[2026-08-02 23:46:46] [INFO] Navigation completed to: /
+[2026-08-02 23:46:46] [INFO] Navigation completed to: /
+[2026-08-02 23:46:46] [INFO] Login page opened successfully
+[2026-08-02 23:46:46] [INFO] STEP 2: Performing login flow
+[2026-08-02 23:46:46] [INFO] STEP 3: Filling locator with provided text
+[2026-08-02 23:46:46] [INFO] Login page opened successfully
+[2026-08-02 23:46:46] [INFO] STEP 2: Performing login flow
+[2026-08-02 23:46:46] [INFO] STEP 3: Filling locator with provided text
+[2026-08-02 23:46:46] [INFO] Fill action completed successfully
+[2026-08-02 23:46:46] [INFO] Fill action completed successfully
+[2026-08-02 23:46:46] [INFO] STEP 3: Filling locator with provided text
+[2026-08-02 23:46:46] [INFO] STEP 3: Filling locator with provided text
+[2026-08-02 23:46:46] [INFO] Fill action completed successfully
+[2026-08-02 23:46:46] [INFO] STEP 2: Clicking locator
+[2026-08-02 23:46:47] [INFO] Fill action completed successfully
+[2026-08-02 23:46:47] [INFO] STEP 2: Clicking locator
+[2026-08-02 23:46:47] [INFO] Click action completed successfully
+[2026-08-02 23:46:47] [INFO] Login submission completed
+[2026-08-02 23:46:47] [INFO] STEP 3: Checking whether inventory page is loaded
+[2026-08-02 23:46:47] [INFO] Inventory page loaded status: true
+[2026-08-02 23:46:47] [INFO] STEP 2: Login validation completed successfully
+[2026-08-02 23:46:47] [INFO] ✅ TEST PASSED: Valid use can log in
+[2026-08-02 23:46:47] [INFO] Click action completed successfully
+[2026-08-02 23:46:47] [INFO] Login submission completed
+[2026-08-02 23:46:47] [INFO] BasePage initialized for page: https://www.saucedemo.com/inventory.html
+[2026-08-02 23:46:47] [INFO] ========== TEST START: Valid user can log in with ==========
+[2026-08-02 23:46:47] [INFO] STEP 1: Adding Sauce Labs Backpack to cart
+[2026-08-02 23:46:47] [INFO] STEP 1: Adding product to cart: Sauce Labs Backpack
+[2026-08-02 23:46:47] [INFO] STEP 2: Clicking locator
+[2026-08-02 23:46:47] [INFO] Click action completed successfully
+[2026-08-02 23:46:47] [INFO] Product added to cart: Sauce Labs Backpack
+[2026-08-02 23:46:49] [INFO] Click action completed successfully
+[2026-08-02 23:46:49] [INFO] Login submission completed
+[2026-08-02 23:46:49] [INFO] STEP 3: Checking whether inventory page is loaded
+[2026-08-02 23:46:49] [INFO] Inventory page loaded status: true
+[2026-08-02 23:46:52] [INFO] STEP 2: Cart action completed
+[2026-08-02 23:46:52] [INFO] ✅ TEST PASSED: Valid user can log in with
+[2026-08-02 23:47:26] [INFO] BasePage initialized for page: about:blank
+[2026-08-02 23:47:26] [INFO] BasePage initialized for page: about:blank
+[2026-08-02 23:47:26] [INFO] BasePage initialized for page: about:blank
+[2026-08-02 23:47:26] [INFO] BasePage initialized for page: about:blank
+[2026-08-02 23:47:26] [INFO] STEP 1: Opening Login page
+[2026-08-02 23:47:26] [INFO] STEP 1: Navigating to: /
+[2026-08-02 23:47:26] [INFO] BasePage initialized for page: about:blank
+[2026-08-02 23:47:26] [INFO] STEP 1: Opening Login page
+[2026-08-02 23:47:26] [INFO] STEP 1: Navigating to: /
+[2026-08-02 23:47:26] [INFO] BasePage initialized for page: about:blank
+[2026-08-02 23:47:26] [INFO] STEP 1: Opening Login page
+[2026-08-02 23:47:26] [INFO] STEP 1: Navigating to: /
+[2026-08-02 23:47:27] [INFO] BasePage initialized for page: about:blank
+[2026-08-02 23:47:27] [INFO] Navigation completed to: /
+[2026-08-02 23:47:27] [INFO] BasePage initialized for page: about:blank
+[2026-08-02 23:47:27] [INFO] STEP 1: Opening Login page
+[2026-08-02 23:47:27] [INFO] STEP 1: Navigating to: /
+[2026-08-02 23:47:27] [INFO] Navigation completed to: /
+[2026-08-02 23:47:27] [INFO] Login page opened successfully
+[2026-08-02 23:47:27] [INFO] STEP 2: Performing login flow
+[2026-08-02 23:47:27] [INFO] STEP 3: Filling locator with provided text
+[2026-08-02 23:47:27] [INFO] Login page opened successfully
+[2026-08-02 23:47:27] [INFO] STEP 2: Performing login flow
+[2026-08-02 23:47:27] [INFO] STEP 3: Filling locator with provided text
+[2026-08-02 23:47:27] [INFO] Navigation completed to: /
+[2026-08-02 23:47:27] [INFO] Login page opened successfully
+[2026-08-02 23:47:27] [INFO] STEP 2: Performing login flow
+[2026-08-02 23:47:27] [INFO] STEP 3: Filling locator with provided text
+[2026-08-02 23:47:27] [INFO] Fill action completed successfully
+[2026-08-02 23:47:27] [INFO] Fill action completed successfully
+[2026-08-02 23:47:27] [INFO] Fill action completed successfully
+[2026-08-02 23:47:27] [INFO] STEP 3: Filling locator with provided text
+[2026-08-02 23:47:27] [INFO] STEP 3: Filling locator with provided text
+[2026-08-02 23:47:27] [INFO] STEP 3: Filling locator with provided text
+[2026-08-02 23:47:27] [INFO] Navigation completed to: /
+[2026-08-02 23:47:27] [INFO] Login page opened successfully
+[2026-08-02 23:47:27] [INFO] STEP 2: Performing login flow
+[2026-08-02 23:47:27] [INFO] STEP 3: Filling locator with provided text
+[2026-08-02 23:47:28] [INFO] Fill action completed successfully
+[2026-08-02 23:47:28] [INFO] Fill action completed successfully
+[2026-08-02 23:47:28] [INFO] Fill action completed successfully
+[2026-08-02 23:47:28] [INFO] STEP 2: Clicking locator
+[2026-08-02 23:47:28] [INFO] STEP 2: Clicking locator
+[2026-08-02 23:47:28] [INFO] STEP 2: Clicking locator
+[2026-08-02 23:47:28] [INFO] Fill action completed successfully
+[2026-08-02 23:47:28] [INFO] STEP 3: Filling locator with provided text
+[2026-08-02 23:47:28] [INFO] Fill action completed successfully
+[2026-08-02 23:47:28] [INFO] STEP 2: Clicking locator
+[2026-08-02 23:47:28] [INFO] Click action completed successfully
+[2026-08-02 23:47:28] [INFO] Login submission completed
+[2026-08-02 23:47:28] [INFO] STEP 3: Checking whether inventory page is loaded
+[2026-08-02 23:47:28] [INFO] Click action completed successfully
+[2026-08-02 23:47:28] [INFO] Click action completed successfully
+[2026-08-02 23:47:28] [INFO] Login submission completed
+[2026-08-02 23:47:28] [INFO] Inventory page loaded status: true
+[2026-08-02 23:47:28] [INFO] Login submission completed
+[2026-08-02 23:47:28] [INFO] STEP 3: Checking whether inventory page is loaded
+[2026-08-02 23:47:28] [INFO] Inventory page loaded status: true
+[2026-08-02 23:47:29] [INFO] BasePage initialized for page: about:blank
+[2026-08-02 23:47:29] [INFO] BasePage initialized for page: about:blank
+[2026-08-02 23:47:29] [INFO] STEP 1: Opening Login page
+[2026-08-02 23:47:29] [INFO] STEP 1: Navigating to: /
+[2026-08-02 23:47:29] [INFO] BasePage initialized for page: about:blank
+[2026-08-02 23:47:29] [INFO] ========== TEST START: Valid use can log in ==========
+[2026-08-02 23:47:29] [INFO] STEP 1: Starting login validation test
+[2026-08-02 23:47:29] [INFO] STEP 1: Opening Login page
+[2026-08-02 23:47:29] [INFO] STEP 1: Navigating to: /
+[2026-08-02 23:47:29] [INFO] Navigation completed to: /
+[2026-08-02 23:47:29] [INFO] Login page opened successfully
+[2026-08-02 23:47:29] [INFO] STEP 2: Performing login flow
+[2026-08-02 23:47:29] [INFO] STEP 3: Filling locator with provided text
+[2026-08-02 23:47:29] [INFO] Navigation completed to: /
+[2026-08-02 23:47:29] [INFO] Login page opened successfully
+[2026-08-02 23:47:29] [INFO] STEP 2: Performing login flow
+[2026-08-02 23:47:29] [INFO] STEP 3: Filling locator with provided text
+[2026-08-02 23:47:30] [INFO] Fill action completed successfully
+[2026-08-02 23:47:30] [INFO] STEP 3: Filling locator with provided text
+[2026-08-02 23:47:30] [INFO] Fill action completed successfully
+[2026-08-02 23:47:30] [INFO] STEP 2: Clicking locator
+[2026-08-02 23:47:30] [INFO] Fill action completed successfully
+[2026-08-02 23:47:30] [INFO] STEP 3: Filling locator with provided text
+[2026-08-02 23:47:30] [INFO] Fill action completed successfully
+[2026-08-02 23:47:30] [INFO] STEP 2: Clicking locator
+[2026-08-02 23:47:30] [INFO] Click action completed successfully
+[2026-08-02 23:47:30] [INFO] Login submission completed
+[2026-08-02 23:47:30] [INFO] STEP 3: Checking whether inventory page is loaded
+[2026-08-02 23:47:30] [INFO] Inventory page loaded status: true
+[2026-08-02 23:47:30] [INFO] STEP 2: Login validation completed successfully
+[2026-08-02 23:47:30] [INFO] ✅ TEST PASSED: Valid use can log in
+[2026-08-02 23:47:30] [INFO] Click action completed successfully
+[2026-08-02 23:47:30] [INFO] Login submission completed
+[2026-08-02 23:47:30] [INFO] BasePage initialized for page: https://www.saucedemo.com/inventory.html
+[2026-08-02 23:47:30] [INFO] ========== TEST START: Valid user can log in with ==========
+[2026-08-02 23:47:30] [INFO] STEP 1: Adding Sauce Labs Backpack to cart
+[2026-08-02 23:47:30] [INFO] STEP 1: Adding product to cart: Sauce Labs Backpack
+[2026-08-02 23:47:30] [INFO] STEP 2: Clicking locator
+[2026-08-02 23:47:30] [INFO] Click action completed successfully
+[2026-08-02 23:47:30] [INFO] Product added to cart: Sauce Labs Backpack
+[2026-08-02 23:47:33] [INFO] Click action completed successfully
+[2026-08-02 23:47:33] [INFO] Login submission completed
+[2026-08-02 23:47:33] [INFO] STEP 3: Checking whether inventory page is loaded
+[2026-08-02 23:47:33] [INFO] Inventory page loaded status: true
+[2026-08-02 23:47:35] [INFO] STEP 2: Cart action completed
+[2026-08-02 23:47:35] [INFO] ✅ TEST PASSED: Valid user can log in with
+[2026-08-03 01:08:10] [INFO] BasePage initialized for page: about:blank
+[2026-08-03 01:08:10] [INFO] BasePage initialized for page: about:blank
+[2026-08-03 01:08:10] [INFO] BasePage initialized for page: about:blank
+[2026-08-03 01:08:10] [INFO] BasePage initialized for page: about:blank
+[2026-08-03 01:08:10] [INFO] STEP 1: Opening Login page
+[2026-08-03 01:08:10] [INFO] STEP 1: Navigating to: /
+[2026-08-03 01:08:10] [INFO] BasePage initialized for page: about:blank
+[2026-08-03 01:08:10] [INFO] STEP 1: Opening Login page
+[2026-08-03 01:08:10] [INFO] STEP 1: Navigating to: /
+[2026-08-03 01:08:10] [INFO] BasePage initialized for page: about:blank
+[2026-08-03 01:08:10] [INFO] STEP 1: Opening Login page
+[2026-08-03 01:08:10] [INFO] STEP 1: Navigating to: /
+[2026-08-03 01:08:10] [INFO] BasePage initialized for page: about:blank
+[2026-08-03 01:08:10] [INFO] BasePage initialized for page: about:blank
+[2026-08-03 01:08:10] [INFO] STEP 1: Opening Login page
+[2026-08-03 01:08:10] [INFO] STEP 1: Navigating to: /
+[2026-08-03 01:08:10] [INFO] Navigation completed to: /
+[2026-08-03 01:08:10] [INFO] Navigation completed to: /
+[2026-08-03 01:08:10] [INFO] Navigation completed to: /
+[2026-08-03 01:08:10] [INFO] Login page opened successfully
+[2026-08-03 01:08:10] [INFO] STEP 2: Performing login flow
+[2026-08-03 01:08:10] [INFO] STEP 3: Filling locator with provided text
+[2026-08-03 01:08:10] [INFO] Login page opened successfully
+[2026-08-03 01:08:10] [INFO] STEP 2: Performing login flow
+[2026-08-03 01:08:10] [INFO] STEP 3: Filling locator with provided text
+[2026-08-03 01:08:10] [INFO] Login page opened successfully
+[2026-08-03 01:08:10] [INFO] STEP 2: Performing login flow
+[2026-08-03 01:08:10] [INFO] STEP 3: Filling locator with provided text
+[2026-08-03 01:08:11] [INFO] Navigation completed to: /
+[2026-08-03 01:08:11] [INFO] Login page opened successfully
+[2026-08-03 01:08:11] [INFO] STEP 2: Performing login flow
+[2026-08-03 01:08:11] [INFO] STEP 3: Filling locator with provided text
+[2026-08-03 01:08:11] [INFO] Fill action completed successfully
+[2026-08-03 01:08:11] [INFO] Fill action completed successfully
+[2026-08-03 01:08:11] [INFO] Fill action completed successfully
+[2026-08-03 01:08:11] [INFO] Fill action completed successfully
+[2026-08-03 01:08:11] [INFO] STEP 3: Filling locator with provided text
+[2026-08-03 01:08:11] [INFO] STEP 3: Filling locator with provided text
+[2026-08-03 01:08:11] [INFO] STEP 3: Filling locator with provided text
+[2026-08-03 01:08:11] [INFO] STEP 3: Filling locator with provided text
+[2026-08-03 01:08:11] [INFO] Fill action completed successfully
+[2026-08-03 01:08:11] [INFO] Fill action completed successfully
+[2026-08-03 01:08:11] [INFO] Fill action completed successfully
+[2026-08-03 01:08:11] [INFO] STEP 2: Clicking locator
+[2026-08-03 01:08:11] [INFO] STEP 2: Clicking locator
+[2026-08-03 01:08:11] [INFO] STEP 2: Clicking locator
+[2026-08-03 01:08:11] [INFO] Fill action completed successfully
+[2026-08-03 01:08:11] [INFO] STEP 2: Clicking locator
+[2026-08-03 01:08:11] [INFO] Click action completed successfully
+[2026-08-03 01:08:11] [INFO] Click action completed successfully
+[2026-08-03 01:08:11] [INFO] Click action completed successfully
+[2026-08-03 01:08:11] [INFO] Login submission completed
+[2026-08-03 01:08:11] [INFO] STEP 3: Checking whether inventory page is loaded
+[2026-08-03 01:08:11] [INFO] Login submission completed
+[2026-08-03 01:08:11] [INFO] STEP 3: Checking whether inventory page is loaded
+[2026-08-03 01:08:11] [INFO] Inventory page loaded status: true
+[2026-08-03 01:08:11] [INFO] Login submission completed
+[2026-08-03 01:08:11] [INFO] Inventory page loaded status: true
+[2026-08-03 01:08:13] [INFO] BasePage initialized for page: about:blank
+[2026-08-03 01:08:13] [INFO] BasePage initialized for page: about:blank
+[2026-08-03 01:08:13] [INFO] STEP 1: Opening Login page
+[2026-08-03 01:08:13] [INFO] STEP 1: Navigating to: /
+[2026-08-03 01:08:13] [INFO] BasePage initialized for page: about:blank
+[2026-08-03 01:08:13] [INFO] ========== TEST START: Valid use can log in ==========
+[2026-08-03 01:08:13] [INFO] STEP 1: Starting login validation test
+[2026-08-03 01:08:13] [INFO] STEP 1: Opening Login page
+[2026-08-03 01:08:13] [INFO] STEP 1: Navigating to: /
+[2026-08-03 01:08:13] [INFO] Navigation completed to: /
+[2026-08-03 01:08:13] [INFO] Login page opened successfully
+[2026-08-03 01:08:13] [INFO] STEP 2: Performing login flow
+[2026-08-03 01:08:13] [INFO] STEP 3: Filling locator with provided text
+[2026-08-03 01:08:13] [INFO] Navigation completed to: /
+[2026-08-03 01:08:13] [INFO] Login page opened successfully
+[2026-08-03 01:08:13] [INFO] STEP 2: Performing login flow
+[2026-08-03 01:08:13] [INFO] STEP 3: Filling locator with provided text
+[2026-08-03 01:08:14] [INFO] Fill action completed successfully
+[2026-08-03 01:08:14] [INFO] STEP 3: Filling locator with provided text
+[2026-08-03 01:08:14] [INFO] Fill action completed successfully
+[2026-08-03 01:08:14] [INFO] STEP 2: Clicking locator
+[2026-08-03 01:08:14] [INFO] Fill action completed successfully
+[2026-08-03 01:08:14] [INFO] STEP 3: Filling locator with provided text
+[2026-08-03 01:08:14] [INFO] Fill action completed successfully
+[2026-08-03 01:08:14] [INFO] STEP 2: Clicking locator
+[2026-08-03 01:08:14] [INFO] Click action completed successfully
+[2026-08-03 01:08:14] [INFO] Login submission completed
+[2026-08-03 01:08:14] [INFO] STEP 3: Checking whether inventory page is loaded
+[2026-08-03 01:08:14] [INFO] Inventory page loaded status: true
+[2026-08-03 01:08:14] [INFO] STEP 2: Login validation completed successfully
+[2026-08-03 01:08:14] [INFO] ✅ TEST PASSED: Valid use can log in
+[2026-08-03 01:08:14] [INFO] Click action completed successfully
+[2026-08-03 01:08:14] [INFO] Login submission completed
+[2026-08-03 01:08:14] [INFO] BasePage initialized for page: https://www.saucedemo.com/inventory.html
+[2026-08-03 01:08:14] [INFO] ========== TEST START: Valid user can log in with ==========
+[2026-08-03 01:08:14] [INFO] STEP 1: Adding Sauce Labs Backpack to cart
+[2026-08-03 01:08:14] [INFO] STEP 1: Adding product to cart: Sauce Labs Backpack
+[2026-08-03 01:08:14] [INFO] STEP 2: Clicking locator
+[2026-08-03 01:08:14] [INFO] Click action completed successfully
+[2026-08-03 01:08:14] [INFO] Product added to cart: Sauce Labs Backpack
+[2026-08-03 01:08:16] [INFO] Click action completed successfully
+[2026-08-03 01:08:16] [INFO] Login submission completed
+[2026-08-03 01:08:16] [INFO] STEP 3: Checking whether inventory page is loaded
+[2026-08-03 01:08:16] [INFO] Inventory page loaded status: true
+[2026-08-03 01:08:19] [INFO] STEP 2: Cart action completed
+[2026-08-03 01:08:19] [INFO] ✅ TEST PASSED: Valid user can log in with
+[2026-08-03 01:10:16] [INFO] BasePage initialized for page: about:blank
+[2026-08-03 01:10:16] [INFO] BasePage initialized for page: about:blank
+[2026-08-03 01:10:16] [INFO] BasePage initialized for page: about:blank
+[2026-08-03 01:10:16] [INFO] BasePage initialized for page: about:blank
+[2026-08-03 01:10:16] [INFO] BasePage initialized for page: about:blank
+[2026-08-03 01:10:16] [INFO] STEP 1: Opening Login page
+[2026-08-03 01:10:16] [INFO] STEP 1: Navigating to: /
+[2026-08-03 01:10:16] [INFO] BasePage initialized for page: about:blank
+[2026-08-03 01:10:16] [INFO] STEP 1: Opening Login page
+[2026-08-03 01:10:16] [INFO] STEP 1: Navigating to: /
+[2026-08-03 01:10:16] [INFO] BasePage initialized for page: about:blank
+[2026-08-03 01:10:16] [INFO] STEP 1: Opening Login page
+[2026-08-03 01:10:16] [INFO] STEP 1: Navigating to: /
+[2026-08-03 01:10:16] [INFO] BasePage initialized for page: about:blank
+[2026-08-03 01:10:16] [INFO] STEP 1: Opening Login page
+[2026-08-03 01:10:16] [INFO] STEP 1: Navigating to: /
+[2026-08-03 01:10:17] [INFO] Navigation completed to: /
+[2026-08-03 01:10:17] [INFO] Navigation completed to: /
+[2026-08-03 01:10:17] [INFO] Navigation completed to: /
+[2026-08-03 01:10:17] [INFO] Navigation completed to: /
+[2026-08-03 01:10:17] [INFO] Login page opened successfully
+[2026-08-03 01:10:17] [INFO] STEP 2: Performing login flow
+[2026-08-03 01:10:17] [INFO] STEP 3: Filling locator with provided text
+[2026-08-03 01:10:17] [INFO] Login page opened successfully
+[2026-08-03 01:10:17] [INFO] STEP 2: Performing login flow
+[2026-08-03 01:10:17] [INFO] STEP 3: Filling locator with provided text
+[2026-08-03 01:10:17] [INFO] Login page opened successfully
+[2026-08-03 01:10:17] [INFO] STEP 2: Performing login flow
+[2026-08-03 01:10:17] [INFO] STEP 3: Filling locator with provided text
+[2026-08-03 01:10:17] [INFO] Login page opened successfully
+[2026-08-03 01:10:17] [INFO] STEP 2: Performing login flow
+[2026-08-03 01:10:17] [INFO] STEP 3: Filling locator with provided text
+[2026-08-03 01:10:17] [INFO] Fill action completed successfully
+[2026-08-03 01:10:17] [INFO] STEP 3: Filling locator with provided text
+[2026-08-03 01:10:17] [INFO] Fill action completed successfully
+[2026-08-03 01:10:17] [INFO] Fill action completed successfully
+[2026-08-03 01:10:17] [INFO] STEP 3: Filling locator with provided text
+[2026-08-03 01:10:17] [INFO] STEP 3: Filling locator with provided text
+[2026-08-03 01:10:17] [INFO] Fill action completed successfully
+[2026-08-03 01:10:17] [INFO] STEP 3: Filling locator with provided text
+[2026-08-03 01:10:17] [INFO] Fill action completed successfully
+[2026-08-03 01:10:17] [INFO] Fill action completed successfully
+[2026-08-03 01:10:17] [INFO] STEP 2: Clicking locator
+[2026-08-03 01:10:17] [INFO] STEP 2: Clicking locator
+[2026-08-03 01:10:17] [INFO] Fill action completed successfully
+[2026-08-03 01:10:17] [INFO] STEP 2: Clicking locator
+[2026-08-03 01:10:17] [INFO] Fill action completed successfully
+[2026-08-03 01:10:17] [INFO] STEP 2: Clicking locator
+[2026-08-03 01:10:18] [INFO] Click action completed successfully
+[2026-08-03 01:10:18] [INFO] Click action completed successfully
+[2026-08-03 01:10:18] [INFO] Click action completed successfully
+[2026-08-03 01:10:18] [INFO] Login submission completed
+[2026-08-03 01:10:18] [INFO] STEP 3: Checking whether inventory page is loaded
+[2026-08-03 01:10:18] [INFO] Login submission completed
+[2026-08-03 01:10:18] [INFO] STEP 3: Checking whether inventory page is loaded
+[2026-08-03 01:10:18] [INFO] Inventory page loaded status: true
+[2026-08-03 01:10:18] [INFO] Inventory page loaded status: true
+[2026-08-03 01:10:18] [INFO] Login submission completed
+[2026-08-03 01:10:18] [INFO] BasePage initialized for page: about:blank
+[2026-08-03 01:10:18] [INFO] BasePage initialized for page: about:blank
+[2026-08-03 01:10:18] [INFO] STEP 1: Opening Login page
+[2026-08-03 01:10:18] [INFO] STEP 1: Navigating to: /
+[2026-08-03 01:10:18] [INFO] BasePage initialized for page: about:blank
+[2026-08-03 01:10:18] [INFO] ========== TEST START: Valid use can log in ==========
+[2026-08-03 01:10:18] [INFO] STEP 1: Starting login validation test
+[2026-08-03 01:10:18] [INFO] STEP 1: Opening Login page
+[2026-08-03 01:10:18] [INFO] STEP 1: Navigating to: /
+[2026-08-03 01:10:18] [INFO] Navigation completed to: /
+[2026-08-03 01:10:18] [INFO] Login page opened successfully
+[2026-08-03 01:10:18] [INFO] STEP 2: Performing login flow
+[2026-08-03 01:10:18] [INFO] STEP 3: Filling locator with provided text
+[2026-08-03 01:10:18] [INFO] Fill action completed successfully
+[2026-08-03 01:10:18] [INFO] STEP 3: Filling locator with provided text
+[2026-08-03 01:10:18] [INFO] Navigation completed to: /
+[2026-08-03 01:10:18] [INFO] Login page opened successfully
+[2026-08-03 01:10:18] [INFO] STEP 2: Performing login flow
+[2026-08-03 01:10:18] [INFO] STEP 3: Filling locator with provided text
+[2026-08-03 01:10:18] [INFO] Fill action completed successfully
+[2026-08-03 01:10:18] [INFO] STEP 3: Filling locator with provided text
+[2026-08-03 01:10:18] [INFO] Fill action completed successfully
+[2026-08-03 01:10:18] [INFO] STEP 2: Clicking locator
+[2026-08-03 01:10:18] [INFO] Fill action completed successfully
+[2026-08-03 01:10:18] [INFO] Click action completed successfully
+[2026-08-03 01:10:18] [INFO] Login submission completed
+[2026-08-03 01:10:18] [INFO] STEP 3: Checking whether inventory page is loaded
+[2026-08-03 01:10:19] [INFO] Inventory page loaded status: true
+[2026-08-03 01:10:19] [INFO] STEP 2: Login validation completed successfully
+[2026-08-03 01:10:19] [INFO] ✅ TEST PASSED: Valid use can log in
+[2026-08-03 01:10:18] [INFO] STEP 2: Clicking locator
+[2026-08-03 01:10:19] [INFO] Click action completed successfully
+[2026-08-03 01:10:19] [INFO] Login submission completed
+[2026-08-03 01:10:19] [INFO] BasePage initialized for page: https://www.saucedemo.com/inventory.html
+[2026-08-03 01:10:19] [INFO] ========== TEST START: Valid user can log in with ==========
+[2026-08-03 01:10:19] [INFO] STEP 1: Adding Sauce Labs Backpack to cart
+[2026-08-03 01:10:19] [INFO] STEP 1: Adding product to cart: Sauce Labs Backpack
+[2026-08-03 01:10:19] [INFO] STEP 2: Clicking locator
+[2026-08-03 01:10:19] [INFO] Click action completed successfully
+[2026-08-03 01:10:19] [INFO] Product added to cart: Sauce Labs Backpack
+[2026-08-03 01:10:23] [INFO] Click action completed successfully
+[2026-08-03 01:10:23] [INFO] Login submission completed
+[2026-08-03 01:10:23] [INFO] STEP 3: Checking whether inventory page is loaded
+[2026-08-03 01:10:23] [INFO] Inventory page loaded status: true
+[2026-08-03 01:10:24] [INFO] STEP 2: Cart action completed
+[2026-08-03 01:10:24] [INFO] ✅ TEST PASSED: Valid user can log in with
+[2026-08-03 07:12:49] [INFO] BasePage initialized for page: about:blank
+[2026-08-03 07:12:49] [INFO] BasePage initialized for page: about:blank
+[2026-08-03 07:12:49] [INFO] STEP 1: Opening Login page
+[2026-08-03 07:12:49] [INFO] STEP 1: Navigating to: /
+[2026-08-03 07:12:49] [INFO] BasePage initialized for page: about:blank
+[2026-08-03 07:12:49] [INFO] ========== TEST START: Valid use can log in ==========
+[2026-08-03 07:12:49] [INFO] STEP 1: Starting login validation test
+[2026-08-03 07:12:49] [INFO] STEP 1: Opening Login page
+[2026-08-03 07:12:49] [INFO] STEP 1: Navigating to: /
+[2026-08-03 07:12:49] [INFO] Navigation completed to: /
+[2026-08-03 07:12:49] [INFO] Navigation completed to: /
+[2026-08-03 07:12:49] [INFO] Login page opened successfully
+[2026-08-03 07:12:49] [INFO] STEP 2: Performing login flow
+[2026-08-03 07:12:49] [INFO] STEP 3: Filling locator with provided text
+[2026-08-03 07:12:49] [INFO] Login page opened successfully
+[2026-08-03 07:12:49] [INFO] STEP 2: Performing login flow
+[2026-08-03 07:12:49] [INFO] STEP 3: Filling locator with provided text
+[2026-08-03 07:12:50] [INFO] Fill action completed successfully
+[2026-08-03 07:12:50] [INFO] Fill action completed successfully
+[2026-08-03 07:12:50] [INFO] STEP 3: Filling locator with provided text
+[2026-08-03 07:12:50] [INFO] STEP 3: Filling locator with provided text
+[2026-08-03 07:12:50] [INFO] Fill action completed successfully
+[2026-08-03 07:12:50] [INFO] Fill action completed successfully
+[2026-08-03 07:12:50] [INFO] STEP 2: Clicking locator
+[2026-08-03 07:12:50] [INFO] STEP 2: Clicking locator
+[2026-08-03 07:12:50] [INFO] Click action completed successfully
+[2026-08-03 07:12:50] [INFO] Click action completed successfully
+[2026-08-03 07:12:50] [INFO] Login submission completed
+[2026-08-03 07:12:50] [INFO] STEP 3: Checking whether inventory page is loaded
+[2026-08-03 07:12:50] [INFO] Login submission completed
+[2026-08-03 07:12:50] [INFO] BasePage initialized for page: https://www.saucedemo.com/inventory.html
+[2026-08-03 07:12:50] [INFO] ========== TEST START: Valid user can log in with ==========
+[2026-08-03 07:12:50] [INFO] STEP 1: Adding Sauce Labs Backpack to cart
+[2026-08-03 07:12:50] [INFO] STEP 1: Adding product to cart: Sauce Labs Backpack
+[2026-08-03 07:12:50] [INFO] STEP 2: Clicking locator
+[2026-08-03 07:12:50] [INFO] Inventory page loaded status: true
+[2026-08-03 07:12:50] [INFO] STEP 2: Login validation completed successfully
+[2026-08-03 07:12:50] [INFO] ✅ TEST PASSED: Valid use can log in
+[2026-08-03 07:12:50] [INFO] Click action completed successfully
+[2026-08-03 07:12:50] [INFO] Product added to cart: Sauce Labs Backpack
+[2026-08-03 07:12:55] [INFO] STEP 2: Cart action completed
+[2026-08-03 07:12:55] [INFO] ✅ TEST PASSED: Valid user can log in with
+[2026-08-03 07:13:04] [INFO] BasePage initialized for page: about:blank
+[2026-08-03 07:13:04] [INFO] BasePage initialized for page: about:blank
+[2026-08-03 07:13:04] [INFO] STEP 1: Opening Login page
+[2026-08-03 07:13:04] [INFO] STEP 1: Navigating to: /
+[2026-08-03 07:13:04] [INFO] BasePage initialized for page: about:blank
+[2026-08-03 07:13:04] [INFO] ========== TEST START: Valid use can log in ==========
+[2026-08-03 07:13:04] [INFO] STEP 1: Starting login validation test
+[2026-08-03 07:13:04] [INFO] STEP 1: Opening Login page
+[2026-08-03 07:13:04] [INFO] STEP 1: Navigating to: /
+[2026-08-03 07:13:04] [INFO] Navigation completed to: /
+[2026-08-03 07:13:04] [INFO] Navigation completed to: /
+[2026-08-03 07:13:04] [INFO] Login page opened successfully
+[2026-08-03 07:13:04] [INFO] STEP 2: Performing login flow
+[2026-08-03 07:13:04] [INFO] STEP 3: Filling locator with provided text
+[2026-08-03 07:13:04] [INFO] Login page opened successfully
+[2026-08-03 07:13:04] [INFO] STEP 2: Performing login flow
+[2026-08-03 07:13:04] [INFO] STEP 3: Filling locator with provided text
+[2026-08-03 07:13:04] [INFO] Fill action completed successfully
+[2026-08-03 07:13:04] [INFO] Fill action completed successfully
+[2026-08-03 07:13:04] [INFO] STEP 3: Filling locator with provided text
+[2026-08-03 07:13:04] [INFO] STEP 3: Filling locator with provided text
+[2026-08-03 07:13:05] [INFO] Fill action completed successfully
+[2026-08-03 07:13:05] [INFO] Fill action completed successfully
+[2026-08-03 07:13:05] [INFO] STEP 2: Clicking locator
+[2026-08-03 07:13:05] [INFO] STEP 2: Clicking locator
+[2026-08-03 07:13:05] [INFO] Click action completed successfully
+[2026-08-03 07:13:05] [INFO] Click action completed successfully
+[2026-08-03 07:13:05] [INFO] Login submission completed
+[2026-08-03 07:13:05] [INFO] STEP 3: Checking whether inventory page is loaded
+[2026-08-03 07:13:05] [INFO] Inventory page loaded status: true
+[2026-08-03 07:13:05] [INFO] Login submission completed
+[2026-08-03 07:13:05] [INFO] BasePage initialized for page: https://www.saucedemo.com/inventory.html
+[2026-08-03 07:13:05] [INFO] ========== TEST START: Valid user can log in with ==========
+[2026-08-03 07:13:05] [INFO] STEP 1: Adding Sauce Labs Backpack to cart
+[2026-08-03 07:13:05] [INFO] STEP 1: Adding product to cart: Sauce Labs Backpack
+[2026-08-03 07:13:05] [INFO] STEP 2: Clicking locator
+[2026-08-03 07:13:05] [INFO] STEP 2: Login validation completed successfully
+[2026-08-03 07:13:05] [INFO] ✅ TEST PASSED: Valid use can log in
+[2026-08-03 07:13:05] [INFO] Click action completed successfully
+[2026-08-03 07:13:05] [INFO] Product added to cart: Sauce Labs Backpack
+[2026-08-03 07:13:10] [INFO] STEP 2: Cart action completed
+[2026-08-03 07:13:10] [INFO] ✅ TEST PASSED: Valid user can log in with
+[2026-08-03 07:14:16] [INFO] BasePage initialized for page: about:blank
+[2026-08-03 07:14:16] [INFO] BasePage initialized for page: about:blank
+[2026-08-03 07:14:16] [INFO] BasePage initialized for page: about:blank
+[2026-08-03 07:14:16] [INFO] ========== TEST START: Valid use can log in ==========
+[2026-08-03 07:14:16] [INFO] STEP 1: Starting login validation test
+[2026-08-03 07:14:16] [INFO] STEP 1: Opening Login page
+[2026-08-03 07:14:16] [INFO] STEP 1: Navigating to: /
+[2026-08-03 07:14:16] [INFO] STEP 1: Opening Login page
+[2026-08-03 07:14:16] [INFO] STEP 1: Navigating to: /
+[2026-08-03 07:14:17] [INFO] Navigation completed to: /
+[2026-08-03 07:14:17] [INFO] Navigation completed to: /
+[2026-08-03 07:14:17] [INFO] Login page opened successfully
+[2026-08-03 07:14:17] [INFO] STEP 2: Performing login flow
+[2026-08-03 07:14:17] [INFO] STEP 3: Filling locator with provided text
+[2026-08-03 07:14:17] [INFO] Login page opened successfully
+[2026-08-03 07:14:17] [INFO] STEP 2: Performing login flow
+[2026-08-03 07:14:17] [INFO] STEP 3: Filling locator with provided text
+[2026-08-03 07:14:17] [INFO] Fill action completed successfully
+[2026-08-03 07:14:17] [INFO] Fill action completed successfully
+[2026-08-03 07:14:17] [INFO] STEP 3: Filling locator with provided text
+[2026-08-03 07:14:17] [INFO] STEP 3: Filling locator with provided text
+[2026-08-03 07:14:17] [INFO] Fill action completed successfully
+[2026-08-03 07:14:17] [INFO] Fill action completed successfully
+[2026-08-03 07:14:17] [INFO] STEP 2: Clicking locator
+[2026-08-03 07:14:17] [INFO] STEP 2: Clicking locator
+[2026-08-03 07:14:17] [INFO] Click action completed successfully
+[2026-08-03 07:14:17] [INFO] Click action completed successfully
+[2026-08-03 07:14:17] [INFO] Login submission completed
+[2026-08-03 07:14:17] [INFO] STEP 3: Checking whether inventory page is loaded
+[2026-08-03 07:14:17] [INFO] Login submission completed
+[2026-08-03 07:14:17] [INFO] BasePage initialized for page: https://www.saucedemo.com/inventory.html
+[2026-08-03 07:14:17] [INFO] ========== TEST START: Valid user can log in with ==========
+[2026-08-03 07:14:17] [INFO] STEP 1: Adding Sauce Labs Backpack to cart
+[2026-08-03 07:14:17] [INFO] STEP 1: Adding product to cart: Sauce Labs Backpack
+[2026-08-03 07:14:17] [INFO] STEP 2: Clicking locator
+[2026-08-03 07:14:17] [INFO] Inventory page loaded status: true
+[2026-08-03 07:14:17] [INFO] STEP 2: Login validation completed successfully
+[2026-08-03 07:14:17] [INFO] ✅ TEST PASSED: Valid use can log in
+[2026-08-03 07:14:17] [INFO] Click action completed successfully
+[2026-08-03 07:14:17] [INFO] Product added to cart: Sauce Labs Backpack
+[2026-08-03 07:14:22] [INFO] STEP 2: Cart action completed
+[2026-08-03 07:14:22] [INFO] ✅ TEST PASSED: Valid user can log in with
+[2026-08-03 07:23:46] [INFO] BasePage initialized for page: about:blank
+[2026-08-03 07:23:46] [INFO] BasePage initialized for page: about:blank
+[2026-08-03 07:23:46] [INFO] BasePage initialized for page: about:blank
+[2026-08-03 07:23:46] [INFO] BasePage initialized for page: about:blank
+[2026-08-03 07:23:46] [INFO] STEP 1: Opening Login page
+[2026-08-03 07:23:46] [INFO] STEP 1: Navigating to: /
+[2026-08-03 07:23:46] [INFO] STEP 1: Opening Login page
+[2026-08-03 07:23:46] [INFO] STEP 1: Navigating to: /
+[2026-08-03 07:23:46] [INFO] STEP 1: Opening Login page
+[2026-08-03 07:23:46] [INFO] STEP 1: Navigating to: /
+[2026-08-03 07:23:46] [INFO] STEP 1: Opening Login page
+[2026-08-03 07:23:46] [INFO] STEP 1: Navigating to: /
+[2026-08-03 07:23:47] [INFO] Navigation completed to: /
+[2026-08-03 07:23:47] [INFO] Navigation completed to: /
+[2026-08-03 07:23:47] [INFO] Navigation completed to: /
+[2026-08-03 07:23:47] [INFO] Navigation completed to: /
+[2026-08-03 07:23:47] [INFO] Login page opened successfully
+[2026-08-03 07:23:47] [INFO] STEP 2: Performing login flow
+[2026-08-03 07:23:47] [INFO] STEP 3: Filling locator with provided text
+[2026-08-03 07:23:47] [INFO] Login page opened successfully
+[2026-08-03 07:23:47] [INFO] STEP 2: Performing login flow
+[2026-08-03 07:23:47] [INFO] STEP 3: Filling locator with provided text
+[2026-08-03 07:23:47] [INFO] Login page opened successfully
+[2026-08-03 07:23:47] [INFO] STEP 2: Performing login flow
+[2026-08-03 07:23:47] [INFO] STEP 3: Filling locator with provided text
+[2026-08-03 07:23:47] [INFO] Login page opened successfully
+[2026-08-03 07:23:47] [INFO] STEP 2: Performing login flow
+[2026-08-03 07:23:47] [INFO] STEP 3: Filling locator with provided text
+[2026-08-03 07:23:47] [INFO] Fill action completed successfully
+[2026-08-03 07:23:47] [INFO] Fill action completed successfully
+[2026-08-03 07:23:47] [INFO] Fill action completed successfully
+[2026-08-03 07:23:47] [INFO] STEP 3: Filling locator with provided text
+[2026-08-03 07:23:47] [INFO] STEP 3: Filling locator with provided text
+[2026-08-03 07:23:47] [INFO] Fill action completed successfully
+[2026-08-03 07:23:47] [INFO] STEP 3: Filling locator with provided text
+[2026-08-03 07:23:47] [INFO] STEP 3: Filling locator with provided text
+[2026-08-03 07:23:47] [INFO] Fill action completed successfully
+[2026-08-03 07:23:47] [INFO] Fill action completed successfully
+[2026-08-03 07:23:47] [INFO] Fill action completed successfully
+[2026-08-03 07:23:47] [INFO] STEP 2: Clicking locator
+[2026-08-03 07:23:47] [INFO] STEP 2: Clicking locator
+[2026-08-03 07:23:47] [INFO] STEP 2: Clicking locator
+[2026-08-03 07:23:47] [INFO] Fill action completed successfully
+[2026-08-03 07:23:47] [INFO] STEP 2: Clicking locator
+[2026-08-03 07:23:47] [INFO] Click action completed successfully
+[2026-08-03 07:23:47] [INFO] Click action completed successfully
+[2026-08-03 07:23:47] [INFO] Login submission completed
+[2026-08-03 07:23:48] [INFO] Click action completed successfully
+[2026-08-03 07:23:48] [INFO] Login submission completed
+[2026-08-03 07:23:47] [INFO] Login submission completed
+[2026-08-03 07:23:49] [INFO] BasePage initialized for page: about:blank
+[2026-08-03 07:23:49] [INFO] BasePage initialized for page: about:blank
+[2026-08-03 07:23:49] [INFO] STEP 1: Opening Login page
+[2026-08-03 07:23:49] [INFO] STEP 1: Navigating to: /
+[2026-08-03 07:23:49] [INFO] BasePage initialized for page: about:blank
+[2026-08-03 07:23:49] [INFO] ========== TEST START: Valid use can log in ==========
+[2026-08-03 07:23:49] [INFO] STEP 1: Starting login validation test
+[2026-08-03 07:23:49] [INFO] STEP 1: Opening Login page
+[2026-08-03 07:23:49] [INFO] STEP 1: Navigating to: /
+[2026-08-03 07:23:50] [INFO] Navigation completed to: /
+[2026-08-03 07:23:50] [INFO] Navigation completed to: /
+[2026-08-03 07:23:50] [INFO] Login page opened successfully
+[2026-08-03 07:23:50] [INFO] STEP 2: Performing login flow
+[2026-08-03 07:23:50] [INFO] STEP 3: Filling locator with provided text
+[2026-08-03 07:23:50] [INFO] Login page opened successfully
+[2026-08-03 07:23:50] [INFO] STEP 2: Performing login flow
+[2026-08-03 07:23:50] [INFO] STEP 3: Filling locator with provided text
+[2026-08-03 07:23:50] [INFO] Fill action completed successfully
+[2026-08-03 07:23:50] [INFO] STEP 3: Filling locator with provided text
+[2026-08-03 07:23:50] [INFO] Fill action completed successfully
+[2026-08-03 07:23:50] [INFO] STEP 3: Filling locator with provided text
+[2026-08-03 07:23:50] [INFO] Fill action completed successfully
+[2026-08-03 07:23:50] [INFO] STEP 2: Clicking locator
+[2026-08-03 07:23:50] [INFO] Fill action completed successfully
+[2026-08-03 07:23:50] [INFO] STEP 2: Clicking locator
+[2026-08-03 07:23:50] [INFO] Click action completed successfully
+[2026-08-03 07:23:50] [INFO] Login submission completed
+[2026-08-03 07:23:50] [INFO] BasePage initialized for page: https://www.saucedemo.com/inventory.html
+[2026-08-03 07:23:50] [INFO] ========== TEST START: Valid user can log in with ==========
+[2026-08-03 07:23:50] [INFO] STEP 1: Adding Sauce Labs Backpack to cart
+[2026-08-03 07:23:50] [INFO] STEP 1: Adding product to cart: Sauce Labs Backpack
+[2026-08-03 07:23:50] [INFO] STEP 2: Clicking locator
+[2026-08-03 07:23:50] [INFO] Click action completed successfully
+[2026-08-03 07:23:50] [INFO] Login submission completed
+[2026-08-03 07:23:50] [INFO] STEP 3: Checking whether inventory page is loaded
+[2026-08-03 07:23:50] [INFO] Inventory page loaded status: true
+[2026-08-03 07:23:50] [INFO] STEP 2: Login validation completed successfully
+[2026-08-03 07:23:50] [INFO] ✅ TEST PASSED: Valid use can log in
+[2026-08-03 07:23:50] [INFO] Click action completed successfully
+[2026-08-03 07:23:50] [INFO] Product added to cart: Sauce Labs Backpack
+[2026-08-03 07:23:52] [INFO] Click action completed successfully
+[2026-08-03 07:23:52] [INFO] Login submission completed
+[2026-08-03 07:23:55] [INFO] STEP 2: Cart action completed
+[2026-08-03 07:23:55] [INFO] ✅ TEST PASSED: Valid user can log in with
+[2026-08-03 07:24:53] [INFO] BasePage initialized for page: about:blank
+[2026-08-03 07:24:53] [INFO] BasePage initialized for page: about:blank
+[2026-08-03 07:24:53] [INFO] BasePage initialized for page: about:blank
+[2026-08-03 07:24:53] [INFO] BasePage initialized for page: about:blank
+[2026-08-03 07:24:53] [INFO] STEP 1: Opening Login page
+[2026-08-03 07:24:53] [INFO] STEP 1: Navigating to: /
+[2026-08-03 07:24:53] [INFO] STEP 1: Opening Login page
+[2026-08-03 07:24:53] [INFO] STEP 1: Navigating to: /
+[2026-08-03 07:24:53] [INFO] STEP 1: Opening Login page
+[2026-08-03 07:24:53] [INFO] STEP 1: Navigating to: /
+[2026-08-03 07:24:53] [INFO] STEP 1: Opening Login page
+[2026-08-03 07:24:53] [INFO] STEP 1: Navigating to: /
+[2026-08-03 07:24:53] [INFO] Navigation completed to: /
+[2026-08-03 07:24:53] [INFO] Navigation completed to: /
+[2026-08-03 07:24:53] [INFO] Navigation completed to: /
+[2026-08-03 07:24:53] [INFO] Navigation completed to: /
+[2026-08-03 07:24:53] [INFO] Login page opened successfully
+[2026-08-03 07:24:53] [INFO] STEP 2: Performing login flow
+[2026-08-03 07:24:53] [INFO] STEP 3: Filling locator with provided text
+[2026-08-03 07:24:53] [INFO] Login page opened successfully
+[2026-08-03 07:24:53] [INFO] STEP 2: Performing login flow
+[2026-08-03 07:24:53] [INFO] STEP 3: Filling locator with provided text
+[2026-08-03 07:24:53] [INFO] Login page opened successfully
+[2026-08-03 07:24:53] [INFO] STEP 2: Performing login flow
+[2026-08-03 07:24:53] [INFO] STEP 3: Filling locator with provided text
+[2026-08-03 07:24:53] [INFO] Login page opened successfully
+[2026-08-03 07:24:53] [INFO] STEP 2: Performing login flow
+[2026-08-03 07:24:53] [INFO] STEP 3: Filling locator with provided text
+[2026-08-03 07:24:54] [ERROR] Login failed: Error: locator.fill: value: expected string, got undefined
+[2026-08-03 07:24:54] [ERROR] Login failed: Error: locator.fill: value: expected string, got undefined
+[2026-08-03 07:24:54] [ERROR] Login failed: Error: locator.fill: value: expected string, got undefined
+[2026-08-03 07:24:54] [ERROR] Login failed: Error: locator.fill: value: expected string, got undefined
+[2026-08-03 07:24:55] [INFO] BasePage initialized for page: about:blank
+[2026-08-03 07:24:55] [INFO] BasePage initialized for page: about:blank
+[2026-08-03 07:24:55] [INFO] STEP 1: Opening Login page
+[2026-08-03 07:24:55] [INFO] STEP 1: Navigating to: /
+[2026-08-03 07:24:55] [INFO] BasePage initialized for page: about:blank
+[2026-08-03 07:24:55] [INFO] ========== TEST START: Valid use can log in ==========
+[2026-08-03 07:24:55] [INFO] STEP 1: Starting login validation test
+[2026-08-03 07:24:55] [INFO] STEP 1: Opening Login page
+[2026-08-03 07:24:55] [INFO] STEP 1: Navigating to: /
+[2026-08-03 07:24:55] [INFO] Navigation completed to: /
+[2026-08-03 07:24:55] [INFO] Navigation completed to: /
+[2026-08-03 07:24:55] [INFO] Login page opened successfully
+[2026-08-03 07:24:55] [INFO] STEP 2: Performing login flow
+[2026-08-03 07:24:55] [INFO] STEP 3: Filling locator with provided text
+[2026-08-03 07:24:55] [INFO] Login page opened successfully
+[2026-08-03 07:24:55] [INFO] STEP 2: Performing login flow
+[2026-08-03 07:24:55] [INFO] STEP 3: Filling locator with provided text
+[2026-08-03 07:24:55] [INFO] Fill action completed successfully
+[2026-08-03 07:24:55] [INFO] Fill action completed successfully
+[2026-08-03 07:24:55] [INFO] STEP 3: Filling locator with provided text
+[2026-08-03 07:24:55] [INFO] STEP 3: Filling locator with provided text
+[2026-08-03 07:24:55] [INFO] Fill action completed successfully
+[2026-08-03 07:24:55] [INFO] Fill action completed successfully
+[2026-08-03 07:24:55] [INFO] STEP 2: Clicking locator
+[2026-08-03 07:24:55] [INFO] STEP 2: Clicking locator
+[2026-08-03 07:24:55] [INFO] Click action completed successfully
+[2026-08-03 07:24:55] [INFO] Click action completed successfully
+[2026-08-03 07:24:55] [INFO] Login submission completed
+[2026-08-03 07:24:55] [INFO] BasePage initialized for page: https://www.saucedemo.com/inventory.html
+[2026-08-03 07:24:55] [INFO] ========== TEST START: Valid user can log in with ==========
+[2026-08-03 07:24:55] [INFO] STEP 1: Adding Sauce Labs Backpack to cart
+[2026-08-03 07:24:55] [INFO] STEP 1: Adding product to cart: Sauce Labs Backpack
+[2026-08-03 07:24:55] [INFO] STEP 2: Clicking locator
+[2026-08-03 07:24:55] [INFO] Login submission completed
+[2026-08-03 07:24:55] [INFO] STEP 3: Checking whether inventory page is loaded
+[2026-08-03 07:24:55] [INFO] Inventory page loaded status: true
+[2026-08-03 07:24:55] [INFO] STEP 2: Login validation completed successfully
+[2026-08-03 07:24:55] [INFO] ✅ TEST PASSED: Valid use can log in
+[2026-08-03 07:24:55] [INFO] Click action completed successfully
+[2026-08-03 07:24:55] [INFO] Product added to cart: Sauce Labs Backpack
+[2026-08-03 07:25:00] [INFO] STEP 2: Cart action completed
+[2026-08-03 07:25:00] [INFO] ✅ TEST PASSED: Valid user can log in with
+[2026-08-03 07:25:17] [INFO] BasePage initialized for page: about:blank
+[2026-08-03 07:25:17] [INFO] BasePage initialized for page: about:blank
+[2026-08-03 07:25:17] [INFO] BasePage initialized for page: about:blank
+[2026-08-03 07:25:17] [INFO] BasePage initialized for page: about:blank
+[2026-08-03 07:25:17] [INFO] STEP 1: Opening Login page
+[2026-08-03 07:25:17] [INFO] STEP 1: Navigating to: /
+[2026-08-03 07:25:17] [INFO] STEP 1: Opening Login page
+[2026-08-03 07:25:17] [INFO] STEP 1: Navigating to: /
+[2026-08-03 07:25:17] [INFO] STEP 1: Opening Login page
+[2026-08-03 07:25:17] [INFO] STEP 1: Navigating to: /
+[2026-08-03 07:25:17] [INFO] STEP 1: Opening Login page
+[2026-08-03 07:25:17] [INFO] STEP 1: Navigating to: /
+[2026-08-03 07:25:18] [INFO] Navigation completed to: /
+[2026-08-03 07:25:18] [INFO] Navigation completed to: /
+[2026-08-03 07:25:18] [INFO] Navigation completed to: /
+[2026-08-03 07:25:18] [INFO] Navigation completed to: /
+[2026-08-03 07:25:18] [INFO] Login page opened successfully
+[2026-08-03 07:25:18] [INFO] STEP 2: Performing login flow
+[2026-08-03 07:25:18] [INFO] STEP 3: Filling locator with provided text
+[2026-08-03 07:25:18] [INFO] Login page opened successfully
+[2026-08-03 07:25:18] [INFO] STEP 2: Performing login flow
+[2026-08-03 07:25:18] [INFO] STEP 3: Filling locator with provided text
+[2026-08-03 07:25:18] [INFO] Login page opened successfully
+[2026-08-03 07:25:18] [INFO] STEP 2: Performing login flow
+[2026-08-03 07:25:18] [INFO] STEP 3: Filling locator with provided text
+[2026-08-03 07:25:18] [INFO] Login page opened successfully
+[2026-08-03 07:25:18] [INFO] STEP 2: Performing login flow
+[2026-08-03 07:25:18] [INFO] STEP 3: Filling locator with provided text
+[2026-08-03 07:25:19] [ERROR] Login failed: Error: locator.fill: value: expected string, got undefined
+[2026-08-03 07:25:19] [ERROR] Login failed: Error: locator.fill: value: expected string, got undefined
+[2026-08-03 07:25:19] [ERROR] Login failed: Error: locator.fill: value: expected string, got undefined
+[2026-08-03 07:25:19] [ERROR] Login failed: Error: locator.fill: value: expected string, got undefined
+[2026-08-03 07:25:25] [INFO] BasePage initialized for page: about:blank
+[2026-08-03 07:25:25] [INFO] STEP 1: Opening Login page
+[2026-08-03 07:25:25] [INFO] STEP 1: Navigating to: /
+[2026-08-03 07:25:25] [INFO] BasePage initialized for page: about:blank
+[2026-08-03 07:25:25] [INFO] BasePage initialized for page: about:blank
+[2026-08-03 07:25:25] [INFO] ========== TEST START: Valid use can log in ==========
+[2026-08-03 07:25:25] [INFO] STEP 1: Starting login validation test
+[2026-08-03 07:25:25] [INFO] STEP 1: Opening Login page
+[2026-08-03 07:25:25] [INFO] STEP 1: Navigating to: /
+[2026-08-03 07:25:26] [INFO] Navigation completed to: /
+[2026-08-03 07:25:26] [INFO] Login page opened successfully
+[2026-08-03 07:25:26] [INFO] STEP 2: Performing login flow
+[2026-08-03 07:25:26] [INFO] STEP 3: Filling locator with provided text
+[2026-08-03 07:25:26] [INFO] Navigation completed to: /
+[2026-08-03 07:25:26] [INFO] Login page opened successfully
+[2026-08-03 07:25:26] [INFO] STEP 2: Performing login flow
+[2026-08-03 07:25:26] [INFO] STEP 3: Filling locator with provided text
+[2026-08-03 07:25:26] [INFO] Fill action completed successfully
+[2026-08-03 07:25:26] [INFO] STEP 3: Filling locator with provided text
+[2026-08-03 07:25:26] [INFO] Fill action completed successfully
+[2026-08-03 07:25:26] [INFO] STEP 3: Filling locator with provided text
+[2026-08-03 07:25:26] [INFO] Fill action completed successfully
+[2026-08-03 07:25:26] [INFO] Fill action completed successfully
+[2026-08-03 07:25:26] [INFO] STEP 2: Clicking locator
+[2026-08-03 07:25:26] [INFO] STEP 2: Clicking locator
+[2026-08-03 07:25:26] [INFO] Click action completed successfully
+[2026-08-03 07:25:26] [INFO] Click action completed successfully
+[2026-08-03 07:25:26] [INFO] Login submission completed
+[2026-08-03 07:25:26] [INFO] STEP 3: Checking whether inventory page is loaded
+[2026-08-03 07:25:26] [INFO] Inventory page loaded status: true
+[2026-08-03 07:25:26] [INFO] Login submission completed
+[2026-08-03 07:25:26] [INFO] BasePage initialized for page: https://www.saucedemo.com/inventory.html
+[2026-08-03 07:25:26] [INFO] ========== TEST START: Valid user can log in with ==========
+[2026-08-03 07:25:26] [INFO] STEP 1: Adding Sauce Labs Backpack to cart
+[2026-08-03 07:25:26] [INFO] STEP 1: Adding product to cart: Sauce Labs Backpack
+[2026-08-03 07:25:26] [INFO] STEP 2: Clicking locator
+[2026-08-03 07:25:26] [INFO] STEP 2: Login validation completed successfully
+[2026-08-03 07:25:26] [INFO] ✅ TEST PASSED: Valid use can log in
+[2026-08-03 07:25:26] [INFO] Click action completed successfully
+[2026-08-03 07:25:26] [INFO] Product added to cart: Sauce Labs Backpack
+[2026-08-03 07:25:32] [INFO] STEP 2: Cart action completed
+[2026-08-03 07:25:32] [INFO] ✅ TEST PASSED: Valid user can log in with
+[2026-08-03 07:26:43] [INFO] BasePage initialized for page: about:blank
+[2026-08-03 07:26:43] [INFO] BasePage initialized for page: about:blank
+[2026-08-03 07:26:43] [INFO] BasePage initialized for page: about:blank
+[2026-08-03 07:26:43] [INFO] BasePage initialized for page: about:blank
+[2026-08-03 07:26:43] [INFO] BasePage initialized for page: about:blank
+[2026-08-03 07:26:43] [INFO] STEP 1: Opening Login page
+[2026-08-03 07:26:43] [INFO] STEP 1: Navigating to: /
+[2026-08-03 07:26:43] [INFO] BasePage initialized for page: about:blank
+[2026-08-03 07:26:43] [INFO] STEP 1: Opening Login page
+[2026-08-03 07:26:43] [INFO] STEP 1: Navigating to: /
+[2026-08-03 07:26:43] [INFO] BasePage initialized for page: about:blank
+[2026-08-03 07:26:43] [INFO] STEP 1: Opening Login page
+[2026-08-03 07:26:43] [INFO] STEP 1: Navigating to: /
+[2026-08-03 07:26:43] [INFO] BasePage initialized for page: about:blank
+[2026-08-03 07:26:43] [INFO] STEP 1: Opening Login page
+[2026-08-03 07:26:43] [INFO] STEP 1: Navigating to: /
+[2026-08-03 07:26:44] [INFO] Navigation completed to: /
+[2026-08-03 07:26:44] [INFO] Navigation completed to: /
+[2026-08-03 07:26:44] [INFO] Navigation completed to: /
+[2026-08-03 07:26:44] [INFO] Login page opened successfully
+[2026-08-03 07:26:44] [INFO] STEP 2: Performing login flow
+[2026-08-03 07:26:44] [INFO] STEP 3: Filling locator with provided text
+[2026-08-03 07:26:44] [INFO] Login page opened successfully
+[2026-08-03 07:26:44] [INFO] STEP 2: Performing login flow
+[2026-08-03 07:26:44] [INFO] STEP 3: Filling locator with provided text
+[2026-08-03 07:26:44] [INFO] Login page opened successfully
+[2026-08-03 07:26:44] [INFO] STEP 2: Performing login flow
+[2026-08-03 07:26:44] [INFO] STEP 3: Filling locator with provided text
+[2026-08-03 07:26:44] [INFO] Navigation completed to: /
+[2026-08-03 07:26:44] [INFO] Login page opened successfully
+[2026-08-03 07:26:44] [INFO] STEP 2: Performing login flow
+[2026-08-03 07:26:44] [INFO] STEP 3: Filling locator with provided text
+[2026-08-03 07:26:44] [ERROR] Login failed: Error: locator.fill: value: expected string, got undefined
+[2026-08-03 07:26:45] [ERROR] Login failed: Error: locator.fill: value: expected string, got undefined
+[2026-08-03 07:26:45] [ERROR] Login failed: Error: locator.fill: value: expected string, got undefined
+[2026-08-03 07:26:45] [ERROR] Login failed: Error: locator.fill: value: expected string, got undefined
+[2026-08-03 07:27:46] [INFO] BasePage initialized for page: about:blank
+[2026-08-03 07:27:46] [INFO] BasePage initialized for page: about:blank
+[2026-08-03 07:27:46] [INFO] BasePage initialized for page: about:blank
+[2026-08-03 07:27:46] [INFO] BasePage initialized for page: about:blank
+[2026-08-03 07:27:46] [INFO] BasePage initialized for page: about:blank
+[2026-08-03 07:27:46] [INFO] STEP 1: Opening Login page
+[2026-08-03 07:27:46] [INFO] STEP 1: Navigating to: /
+[2026-08-03 07:27:46] [INFO] BasePage initialized for page: about:blank
+[2026-08-03 07:27:46] [INFO] STEP 1: Opening Login page
+[2026-08-03 07:27:46] [INFO] STEP 1: Navigating to: /
+[2026-08-03 07:27:46] [INFO] BasePage initialized for page: about:blank
+[2026-08-03 07:27:46] [INFO] STEP 1: Opening Login page
+[2026-08-03 07:27:46] [INFO] STEP 1: Navigating to: /
+[2026-08-03 07:27:46] [INFO] BasePage initialized for page: about:blank
+[2026-08-03 07:27:46] [INFO] STEP 1: Opening Login page
+[2026-08-03 07:27:46] [INFO] STEP 1: Navigating to: /
+[2026-08-03 07:27:48] [INFO] Navigation completed to: /
+[2026-08-03 07:27:48] [INFO] Navigation completed to: /
+[2026-08-03 07:27:48] [INFO] Login page opened successfully
+[2026-08-03 07:27:48] [INFO] STEP 2: Performing login flow
+[2026-08-03 07:27:48] [INFO] STEP 3: Filling locator with provided text
+[2026-08-03 07:27:48] [INFO] Login page opened successfully
+[2026-08-03 07:27:48] [INFO] STEP 2: Performing login flow
+[2026-08-03 07:27:48] [INFO] STEP 3: Filling locator with provided text
+[2026-08-03 07:27:48] [INFO] Navigation completed to: /
+[2026-08-03 07:27:49] [INFO] Navigation completed to: /
+[2026-08-03 07:27:48] [INFO] Login page opened successfully
+[2026-08-03 07:27:48] [INFO] STEP 2: Performing login flow
+[2026-08-03 07:27:49] [INFO] STEP 3: Filling locator with provided text
+[2026-08-03 07:27:49] [INFO] Login page opened successfully
+[2026-08-03 07:27:49] [INFO] STEP 2: Performing login flow
+[2026-08-03 07:27:49] [INFO] STEP 3: Filling locator with provided text
+[2026-08-03 07:27:49] [INFO] Fill action completed successfully
+[2026-08-03 07:27:49] [INFO] STEP 3: Filling locator with provided text
+[2026-08-03 07:27:49] [INFO] Fill action completed successfully
+[2026-08-03 07:27:49] [INFO] STEP 2: Clicking locator
+[2026-08-03 07:27:49] [INFO] Fill action completed successfully
+[2026-08-03 07:27:49] [INFO] STEP 3: Filling locator with provided text
+[2026-08-03 07:27:49] [INFO] Fill action completed successfully
+[2026-08-03 07:27:49] [INFO] Fill action completed successfully
+[2026-08-03 07:27:49] [INFO] STEP 3: Filling locator with provided text
+[2026-08-03 07:27:49] [INFO] Fill action completed successfully
+[2026-08-03 07:27:49] [INFO] Click action completed successfully
+[2026-08-03 07:27:49] [INFO] STEP 2: Clicking locator
+[2026-08-03 07:27:49] [INFO] STEP 3: Filling locator with provided text
+[2026-08-03 07:27:49] [INFO] Login submission completed
+[2026-08-03 07:27:50] [INFO] Fill action completed successfully
+[2026-08-03 07:27:50] [INFO] Fill action completed successfully
+[2026-08-03 07:27:50] [INFO] STEP 2: Clicking locator
+[2026-08-03 07:27:50] [INFO] STEP 2: Clicking locator
+[2026-08-03 07:27:50] [INFO] Click action completed successfully
+[2026-08-03 07:27:50] [INFO] Login submission completed
+[2026-08-03 07:27:50] [INFO] Click action completed successfully
+[2026-08-03 07:27:50] [INFO] Login submission completed
+[2026-08-03 07:27:56] [INFO] Click action completed successfully
+[2026-08-03 07:27:56] [INFO] Login submission completed
+[2026-08-03 07:28:46] [INFO] BasePage initialized for page: about:blank
+[2026-08-03 07:28:46] [INFO] BasePage initialized for page: about:blank
+[2026-08-03 07:28:46] [INFO] BasePage initialized for page: about:blank
+[2026-08-03 07:28:46] [INFO] BasePage initialized for page: about:blank
+[2026-08-03 07:28:46] [INFO] BasePage initialized for page: about:blank
+[2026-08-03 07:28:46] [INFO] STEP 1: Opening Login page
+[2026-08-03 07:28:46] [INFO] STEP 1: Navigating to: /
+[2026-08-03 07:28:46] [INFO] BasePage initialized for page: about:blank
+[2026-08-03 07:28:46] [INFO] STEP 1: Opening Login page
+[2026-08-03 07:28:46] [INFO] STEP 1: Navigating to: /
+[2026-08-03 07:28:46] [INFO] BasePage initialized for page: about:blank
+[2026-08-03 07:28:46] [INFO] STEP 1: Opening Login page
+[2026-08-03 07:28:46] [INFO] STEP 1: Navigating to: /
+[2026-08-03 07:28:46] [INFO] BasePage initialized for page: about:blank
+[2026-08-03 07:28:46] [INFO] STEP 1: Opening Login page
+[2026-08-03 07:28:46] [INFO] STEP 1: Navigating to: /
+[2026-08-03 07:28:47] [INFO] Navigation completed to: /
+[2026-08-03 07:28:47] [INFO] Navigation completed to: /
+[2026-08-03 07:28:47] [INFO] Navigation completed to: /
+[2026-08-03 07:28:47] [INFO] Login page opened successfully
+[2026-08-03 07:28:47] [INFO] STEP 2: Performing login flow
+[2026-08-03 07:28:47] [INFO] STEP 3: Filling locator with provided text
+[2026-08-03 07:28:47] [INFO] Login page opened successfully
+[2026-08-03 07:28:47] [INFO] STEP 2: Performing login flow
+[2026-08-03 07:28:47] [INFO] STEP 3: Filling locator with provided text
+[2026-08-03 07:28:47] [INFO] Login page opened successfully
+[2026-08-03 07:28:47] [INFO] STEP 2: Performing login flow
+[2026-08-03 07:28:47] [INFO] STEP 3: Filling locator with provided text
+[2026-08-03 07:28:47] [INFO] Navigation completed to: /
+[2026-08-03 07:28:47] [INFO] Login page opened successfully
+[2026-08-03 07:28:47] [INFO] STEP 2: Performing login flow
+[2026-08-03 07:28:47] [INFO] STEP 3: Filling locator with provided text
+[2026-08-03 07:28:47] [INFO] Fill action completed successfully
+[2026-08-03 07:28:47] [INFO] Fill action completed successfully
+[2026-08-03 07:28:47] [INFO] Fill action completed successfully
+[2026-08-03 07:28:47] [INFO] STEP 3: Filling locator with provided text
+[2026-08-03 07:28:47] [INFO] STEP 3: Filling locator with provided text
+[2026-08-03 07:28:47] [INFO] Fill action completed successfully
+[2026-08-03 07:28:47] [INFO] Fill action completed successfully
+[2026-08-03 07:28:47] [INFO] STEP 3: Filling locator with provided text
+[2026-08-03 07:28:47] [INFO] STEP 3: Filling locator with provided text
+[2026-08-03 07:28:47] [INFO] Fill action completed successfully
+[2026-08-03 07:28:47] [INFO] STEP 2: Clicking locator
+[2026-08-03 07:28:48] [INFO] STEP 2: Clicking locator
+[2026-08-03 07:28:48] [INFO] Fill action completed successfully
+[2026-08-03 07:28:48] [INFO] Fill action completed successfully
+[2026-08-03 07:28:48] [INFO] STEP 2: Clicking locator
+[2026-08-03 07:28:48] [INFO] STEP 2: Clicking locator
+[2026-08-03 07:28:48] [INFO] Click action completed successfully
+[2026-08-03 07:28:48] [INFO] Click action completed successfully
+[2026-08-03 07:28:48] [INFO] Click action completed successfully
+[2026-08-03 07:28:48] [INFO] Login submission completed
+[2026-08-03 07:28:48] [INFO] STEP 3: Checking whether inventory page is loaded
+[2026-08-03 07:28:48] [INFO] Inventory page loaded status: true
+[2026-08-03 07:28:48] [INFO] Login submission completed
+[2026-08-03 07:28:48] [INFO] STEP 3: Checking whether inventory page is loaded
+[2026-08-03 07:28:48] [INFO] Inventory page loaded status: true
+[2026-08-03 07:28:48] [INFO] Login submission completed
+[2026-08-03 07:28:53] [INFO] Click action completed successfully
+[2026-08-03 07:28:53] [INFO] Login submission completed
+[2026-08-03 07:28:53] [INFO] STEP 3: Checking whether inventory page is loaded
+[2026-08-03 07:28:53] [INFO] Inventory page loaded status: true
+[2026-08-03 07:37:31] [INFO] BasePage initialized for page: about:blank
+[2026-08-03 07:37:31] [INFO] BasePage initialized for page: about:blank
+[2026-08-03 07:37:31] [INFO] BasePage initialized for page: about:blank
+[2026-08-03 07:37:31] [INFO] BasePage initialized for page: about:blank
+[2026-08-03 07:37:31] [INFO] BasePage initialized for page: about:blank
+[2026-08-03 07:37:31] [INFO] STEP 1: Opening Login page
+[2026-08-03 07:37:31] [INFO] STEP 1: Navigating to: /
+[2026-08-03 07:37:31] [INFO] BasePage initialized for page: about:blank
+[2026-08-03 07:37:31] [INFO] STEP 1: Opening Login page
+[2026-08-03 07:37:31] [INFO] STEP 1: Navigating to: /
+[2026-08-03 07:37:31] [INFO] BasePage initialized for page: about:blank
+[2026-08-03 07:37:31] [INFO] STEP 1: Opening Login page
+[2026-08-03 07:37:31] [INFO] STEP 1: Navigating to: /
+[2026-08-03 07:37:31] [INFO] BasePage initialized for page: about:blank
+[2026-08-03 07:37:31] [INFO] STEP 1: Opening Login page
+[2026-08-03 07:37:31] [INFO] STEP 1: Navigating to: /
+[2026-08-03 07:37:31] [INFO] Navigation completed to: /
+[2026-08-03 07:37:31] [INFO] Navigation completed to: /
+[2026-08-03 07:37:31] [INFO] Navigation completed to: /
+[2026-08-03 07:37:31] [INFO] Navigation completed to: /
+[2026-08-03 07:37:31] [INFO] Login page opened successfully
+[2026-08-03 07:37:31] [INFO] STEP 2: Performing login flow
+[2026-08-03 07:37:31] [INFO] STEP 3: Filling locator with provided text
+[2026-08-03 07:37:31] [INFO] Login page opened successfully
+[2026-08-03 07:37:31] [INFO] STEP 2: Performing login flow
+[2026-08-03 07:37:31] [INFO] STEP 3: Filling locator with provided text
+[2026-08-03 07:37:31] [INFO] Login page opened successfully
+[2026-08-03 07:37:31] [INFO] STEP 2: Performing login flow
+[2026-08-03 07:37:31] [INFO] STEP 3: Filling locator with provided text
+[2026-08-03 07:37:31] [INFO] Login page opened successfully
+[2026-08-03 07:37:31] [INFO] STEP 2: Performing login flow
+[2026-08-03 07:37:31] [INFO] STEP 3: Filling locator with provided text
+[2026-08-03 07:37:32] [INFO] Fill action completed successfully
+[2026-08-03 07:37:32] [INFO] Fill action completed successfully
+[2026-08-03 07:37:32] [INFO] STEP 3: Filling locator with provided text
+[2026-08-03 07:37:32] [INFO] STEP 3: Filling locator with provided text
+[2026-08-03 07:37:32] [INFO] Fill action completed successfully
+[2026-08-03 07:37:32] [INFO] STEP 3: Filling locator with provided text
+[2026-08-03 07:37:33] [INFO] Fill action completed successfully
+[2026-08-03 07:37:33] [INFO] STEP 3: Filling locator with provided text
+[2026-08-03 07:37:33] [INFO] Fill action completed successfully
+[2026-08-03 07:37:33] [INFO] Fill action completed successfully
+[2026-08-03 07:37:33] [INFO] Fill action completed successfully
+[2026-08-03 07:37:33] [INFO] STEP 2: Clicking locator
+[2026-08-03 07:37:33] [INFO] STEP 2: Clicking locator
+[2026-08-03 07:37:33] [INFO] Fill action completed successfully
+[2026-08-03 07:37:33] [INFO] STEP 2: Clicking locator
+[2026-08-03 07:37:33] [INFO] STEP 2: Clicking locator
+[2026-08-03 07:37:33] [INFO] Click action completed successfully
+[2026-08-03 07:37:33] [INFO] Click action completed successfully
+[2026-08-03 07:37:33] [INFO] Click action completed successfully
+[2026-08-03 07:37:33] [INFO] Login submission completed
+[2026-08-03 07:37:33] [INFO] STEP 3: Checking whether inventory page is loaded
+[2026-08-03 07:37:33] [INFO] Login submission completed
+[2026-08-03 07:37:33] [INFO] STEP 3: Checking whether inventory page is loaded
+[2026-08-03 07:37:34] [INFO] Inventory page loaded status: true
+[2026-08-03 07:37:33] [INFO] Login submission completed
+[2026-08-03 07:37:34] [INFO] Inventory page loaded status: true
+[2026-08-03 07:37:38] [INFO] Click action completed successfully
+[2026-08-03 07:37:38] [INFO] Login submission completed
+[2026-08-03 07:37:38] [INFO] STEP 3: Checking whether inventory page is loaded
+[2026-08-03 07:37:38] [INFO] Inventory page loaded status: true
+[2026-08-03 07:43:32] [INFO] BasePage initialized for page: about:blank
+[2026-08-03 07:43:32] [INFO] BasePage initialized for page: about:blank
+[2026-08-03 07:43:33] [INFO] BasePage initialized for page: about:blank
+[2026-08-03 07:43:33] [INFO] BasePage initialized for page: about:blank
+[2026-08-03 07:43:33] [INFO] STEP 1: Opening Login page
+[2026-08-03 07:43:33] [INFO] STEP 1: Navigating to: /
+[2026-08-03 07:43:33] [INFO] BasePage initialized for page: about:blank
+[2026-08-03 07:43:33] [INFO] STEP 1: Opening Login page
+[2026-08-03 07:43:33] [INFO] STEP 1: Navigating to: /
+[2026-08-03 07:43:33] [INFO] BasePage initialized for page: about:blank
+[2026-08-03 07:43:33] [INFO] STEP 1: Opening Login page
+[2026-08-03 07:43:33] [INFO] STEP 1: Navigating to: /
+[2026-08-03 07:43:33] [INFO] BasePage initialized for page: about:blank
+[2026-08-03 07:43:34] [INFO] Navigation completed to: /
+[2026-08-03 07:43:33] [INFO] BasePage initialized for page: about:blank
+[2026-08-03 07:43:33] [INFO] STEP 1: Opening Login page
+[2026-08-03 07:43:33] [INFO] STEP 1: Navigating to: /
+[2026-08-03 07:43:35] [INFO] Navigation completed to: /
+[2026-08-03 07:43:35] [INFO] Login page opened successfully
+[2026-08-03 07:43:35] [INFO] STEP 2: Performing login flow
+[2026-08-03 07:43:35] [INFO] STEP 3: Filling locator with provided text
+[2026-08-03 07:43:35] [INFO] Navigation completed to: /
+[2026-08-03 07:43:34] [INFO] Login page opened successfully
+[2026-08-03 07:43:34] [INFO] STEP 2: Performing login flow
+[2026-08-03 07:43:34] [INFO] STEP 3: Filling locator with provided text
+[2026-08-03 07:43:35] [INFO] Login page opened successfully
+[2026-08-03 07:43:35] [INFO] STEP 2: Performing login flow
+[2026-08-03 07:43:35] [INFO] STEP 3: Filling locator with provided text
+[2026-08-03 07:43:36] [INFO] Navigation completed to: /
+[2026-08-03 07:43:36] [INFO] Fill action completed successfully
+[2026-08-03 07:43:36] [INFO] Login page opened successfully
+[2026-08-03 07:43:36] [INFO] STEP 2: Performing login flow
+[2026-08-03 07:43:36] [INFO] STEP 3: Filling locator with provided text
+[2026-08-03 07:43:36] [INFO] STEP 3: Filling locator with provided text
+[2026-08-03 07:43:36] [INFO] Fill action completed successfully
+[2026-08-03 07:43:36] [INFO] STEP 3: Filling locator with provided text
+[2026-08-03 07:43:36] [INFO] Fill action completed successfully
+[2026-08-03 07:43:36] [INFO] STEP 3: Filling locator with provided text
+[2026-08-03 07:43:36] [INFO] Fill action completed successfully
+[2026-08-03 07:43:36] [INFO] STEP 2: Clicking locator
+[2026-08-03 07:43:36] [INFO] Fill action completed successfully
+[2026-08-03 07:43:36] [INFO] STEP 2: Clicking locator
+[2026-08-03 07:43:36] [INFO] Fill action completed successfully
+[2026-08-03 07:43:36] [INFO] STEP 3: Filling locator with provided text
+[2026-08-03 07:43:37] [INFO] Fill action completed successfully
+[2026-08-03 07:43:37] [INFO] STEP 2: Clicking locator
+[2026-08-03 07:43:37] [INFO] Fill action completed successfully
+[2026-08-03 07:43:37] [INFO] STEP 2: Clicking locator
+[2026-08-03 07:43:37] [INFO] Click action completed successfully
+[2026-08-03 07:43:37] [INFO] Click action completed successfully
+[2026-08-03 07:43:37] [INFO] Login submission completed
+[2026-08-03 07:43:37] [INFO] STEP 3: Checking whether inventory page is loaded
+[2026-08-03 07:43:37] [INFO] Inventory page loaded status: true
+[2026-08-03 07:43:37] [INFO] Login submission completed
+[2026-08-03 07:43:37] [INFO] Click action completed successfully
+[2026-08-03 07:43:37] [INFO] Login submission completed
+[2026-08-03 07:43:37] [INFO] STEP 3: Checking whether inventory page is loaded
+[2026-08-03 07:43:37] [INFO] Inventory page loaded status: true
+[2026-08-03 07:43:42] [INFO] Click action completed successfully
+[2026-08-03 07:43:42] [INFO] Login submission completed
+[2026-08-03 07:43:42] [INFO] STEP 3: Checking whether inventory page is loaded
+[2026-08-03 07:43:42] [INFO] Inventory page loaded status: true
+[2026-08-03 08:01:13] [INFO] BasePage initialized for page: about:blank
+[2026-08-03 08:01:13] [INFO] BasePage initialized for page: about:blank
+[2026-08-03 08:01:13] [INFO] BasePage initialized for page: about:blank
+[2026-08-03 08:01:13] [INFO] BasePage initialized for page: about:blank
+[2026-08-03 08:01:13] [INFO] BasePage initialized for page: about:blank
+[2026-08-03 08:01:13] [INFO] STEP 1: Opening Login page
+[2026-08-03 08:01:13] [INFO] STEP 1: Navigating to: /
+[2026-08-03 08:01:13] [INFO] BasePage initialized for page: about:blank
+[2026-08-03 08:01:13] [INFO] STEP 1: Opening Login page
+[2026-08-03 08:01:13] [INFO] STEP 1: Navigating to: /
+[2026-08-03 08:01:13] [INFO] BasePage initialized for page: about:blank
+[2026-08-03 08:01:13] [INFO] STEP 1: Opening Login page
+[2026-08-03 08:01:13] [INFO] STEP 1: Navigating to: /
+[2026-08-03 08:01:13] [INFO] BasePage initialized for page: about:blank
+[2026-08-03 08:01:13] [INFO] STEP 1: Opening Login page
+[2026-08-03 08:01:13] [INFO] STEP 1: Navigating to: /
+[2026-08-03 08:01:14] [INFO] Navigation completed to: /
+[2026-08-03 08:01:14] [INFO] Navigation completed to: /
+[2026-08-03 08:01:14] [INFO] Navigation completed to: /
+[2026-08-03 08:01:14] [INFO] Login page opened successfully
+[2026-08-03 08:01:14] [INFO] STEP 2: Performing login flow
+[2026-08-03 08:01:14] [INFO] STEP 3: Filling locator with provided text
+[2026-08-03 08:01:14] [INFO] Navigation completed to: /
+[2026-08-03 08:01:14] [INFO] Login page opened successfully
+[2026-08-03 08:01:14] [INFO] STEP 2: Performing login flow
+[2026-08-03 08:01:14] [INFO] STEP 3: Filling locator with provided text
+[2026-08-03 08:01:14] [INFO] Login page opened successfully
+[2026-08-03 08:01:14] [INFO] STEP 2: Performing login flow
+[2026-08-03 08:01:14] [INFO] STEP 3: Filling locator with provided text
+[2026-08-03 08:01:14] [INFO] Login page opened successfully
+[2026-08-03 08:01:14] [INFO] STEP 2: Performing login flow
+[2026-08-03 08:01:14] [INFO] STEP 3: Filling locator with provided text
+[2026-08-03 08:01:14] [INFO] Fill action completed successfully
+[2026-08-03 08:01:14] [INFO] Fill action completed successfully
+[2026-08-03 08:01:14] [INFO] STEP 3: Filling locator with provided text
+[2026-08-03 08:01:14] [INFO] Fill action completed successfully
+[2026-08-03 08:01:14] [INFO] STEP 3: Filling locator with provided text
+[2026-08-03 08:01:14] [INFO] STEP 3: Filling locator with provided text
+[2026-08-03 08:01:14] [INFO] Fill action completed successfully
+[2026-08-03 08:01:14] [INFO] STEP 3: Filling locator with provided text
+[2026-08-03 08:01:14] [INFO] Fill action completed successfully
+[2026-08-03 08:01:14] [INFO] STEP 2: Clicking locator
+[2026-08-03 08:01:15] [INFO] Fill action completed successfully
+[2026-08-03 08:01:15] [INFO] Fill action completed successfully
+[2026-08-03 08:01:15] [INFO] STEP 2: Clicking locator
+[2026-08-03 08:01:15] [INFO] STEP 2: Clicking locator
+[2026-08-03 08:01:15] [INFO] Fill action completed successfully
+[2026-08-03 08:01:15] [INFO] STEP 2: Clicking locator
+[2026-08-03 08:01:15] [INFO] Click action completed successfully
+[2026-08-03 08:01:15] [INFO] Click action completed successfully
+[2026-08-03 08:01:15] [INFO] Click action completed successfully
+[2026-08-03 08:01:15] [INFO] Login submission completed
+[2026-08-03 08:01:15] [INFO] STEP 3: Checking whether inventory page is loaded
+[2026-08-03 08:01:15] [INFO] Login submission completed
+[2026-08-03 08:01:15] [INFO] STEP 3: Checking whether inventory page is loaded
+[2026-08-03 08:01:15] [INFO] Inventory page loaded status: true
+[2026-08-03 08:01:15] [INFO] Inventory page loaded status: true
+[2026-08-03 08:01:15] [INFO] Login submission completed
+[2026-08-03 08:01:20] [INFO] Click action completed successfully
+[2026-08-03 08:01:20] [INFO] Login submission completed
+[2026-08-03 08:01:20] [INFO] STEP 3: Checking whether inventory page is loaded
+[2026-08-03 08:01:20] [INFO] Inventory page loaded status: true
+[2026-08-03 08:04:39] [INFO] BasePage initialized for page: about:blank
+[2026-08-03 08:04:39] [INFO] BasePage initialized for page: about:blank
+[2026-08-03 08:04:39] [INFO] BasePage initialized for page: about:blank
+[2026-08-03 08:04:39] [INFO] BasePage initialized for page: about:blank
+[2026-08-03 08:04:39] [INFO] BasePage initialized for page: about:blank
+[2026-08-03 08:04:39] [INFO] STEP 1: Opening Login page
+[2026-08-03 08:04:39] [INFO] STEP 1: Navigating to: /
+[2026-08-03 08:04:39] [INFO] BasePage initialized for page: about:blank
+[2026-08-03 08:04:39] [INFO] STEP 1: Opening Login page
+[2026-08-03 08:04:39] [INFO] STEP 1: Navigating to: /
+[2026-08-03 08:04:39] [INFO] BasePage initialized for page: about:blank
+[2026-08-03 08:04:39] [INFO] STEP 1: Opening Login page
+[2026-08-03 08:04:39] [INFO] STEP 1: Navigating to: /
+[2026-08-03 08:04:39] [INFO] BasePage initialized for page: about:blank
+[2026-08-03 08:04:39] [INFO] STEP 1: Opening Login page
+[2026-08-03 08:04:39] [INFO] STEP 1: Navigating to: /
+[2026-08-03 08:04:39] [INFO] Navigation completed to: /
+[2026-08-03 08:04:39] [INFO] Navigation completed to: /
+[2026-08-03 08:04:39] [INFO] Navigation completed to: /
+[2026-08-03 08:04:39] [INFO] Login page opened successfully
+[2026-08-03 08:04:39] [INFO] STEP 2: Performing login flow
+[2026-08-03 08:04:39] [INFO] STEP 3: Filling locator with provided text
+[2026-08-03 08:04:39] [INFO] Login page opened successfully
+[2026-08-03 08:04:39] [INFO] STEP 2: Performing login flow
+[2026-08-03 08:04:39] [INFO] STEP 3: Filling locator with provided text
+[2026-08-03 08:04:39] [INFO] Login page opened successfully
+[2026-08-03 08:04:39] [INFO] STEP 2: Performing login flow
+[2026-08-03 08:04:39] [INFO] STEP 3: Filling locator with provided text
+[2026-08-03 08:04:40] [INFO] Navigation completed to: /
+[2026-08-03 08:04:40] [INFO] Login page opened successfully
+[2026-08-03 08:04:40] [INFO] STEP 2: Performing login flow
+[2026-08-03 08:04:40] [INFO] STEP 3: Filling locator with provided text
+[2026-08-03 08:04:40] [INFO] Fill action completed successfully
+[2026-08-03 08:04:40] [INFO] Fill action completed successfully
+[2026-08-03 08:04:40] [INFO] STEP 3: Filling locator with provided text
+[2026-08-03 08:04:40] [INFO] STEP 3: Filling locator with provided text
+[2026-08-03 08:04:40] [INFO] Fill action completed successfully
+[2026-08-03 08:04:40] [INFO] Fill action completed successfully
+[2026-08-03 08:04:40] [INFO] STEP 3: Filling locator with provided text
+[2026-08-03 08:04:40] [INFO] STEP 3: Filling locator with provided text
+[2026-08-03 08:04:40] [INFO] Fill action completed successfully
+[2026-08-03 08:04:40] [INFO] Fill action completed successfully
+[2026-08-03 08:04:40] [INFO] Fill action completed successfully
+[2026-08-03 08:04:40] [INFO] STEP 2: Clicking locator
+[2026-08-03 08:04:40] [INFO] STEP 2: Clicking locator
+[2026-08-03 08:04:40] [INFO] STEP 2: Clicking locator
+[2026-08-03 08:04:40] [INFO] Fill action completed successfully
+[2026-08-03 08:04:40] [INFO] STEP 2: Clicking locator
+[2026-08-03 08:04:40] [INFO] Click action completed successfully
+[2026-08-03 08:04:40] [INFO] Click action completed successfully
+[2026-08-03 08:04:40] [INFO] Login submission completed
+[2026-08-03 08:04:40] [INFO] STEP 3: Checking whether inventory page is loaded
+[2026-08-03 08:04:40] [INFO] Inventory page loaded status: true
+[2026-08-03 08:04:40] [INFO] Login submission completed
+[2026-08-03 08:04:40] [INFO] Click action completed successfully
+[2026-08-03 08:04:40] [INFO] Login submission completed
+[2026-08-03 08:04:40] [INFO] STEP 3: Checking whether inventory page is loaded
+[2026-08-03 08:04:40] [INFO] Inventory page loaded status: true
+[2026-08-03 08:04:45] [INFO] Click action completed successfully
+[2026-08-03 08:04:45] [INFO] Login submission completed
+[2026-08-03 08:04:45] [INFO] STEP 3: Checking whether inventory page is loaded
+[2026-08-03 08:04:45] [INFO] Inventory page loaded status: true
+[2026-08-03 08:31:12] [INFO] BasePage initialized for page: about:blank
+[2026-08-03 08:31:12] [INFO] BasePage initialized for page: about:blank
+[2026-08-03 08:31:12] [INFO] BasePage initialized for page: about:blank
+[2026-08-03 08:31:12] [INFO] BasePage initialized for page: about:blank
+[2026-08-03 08:31:12] [INFO] STEP 1: Opening Login page
+[2026-08-03 08:31:12] [INFO] STEP 1: Navigating to: /
+[2026-08-03 08:31:12] [INFO] BasePage initialized for page: about:blank
+[2026-08-03 08:31:12] [INFO] STEP 1: Opening Login page
+[2026-08-03 08:31:12] [INFO] STEP 1: Navigating to: /
+[2026-08-03 08:31:12] [INFO] BasePage initialized for page: about:blank
+[2026-08-03 08:31:12] [INFO] STEP 1: Opening Login page
+[2026-08-03 08:31:12] [INFO] STEP 1: Navigating to: /
+[2026-08-03 08:31:12] [INFO] BasePage initialized for page: about:blank
+[2026-08-03 08:31:12] [INFO] BasePage initialized for page: about:blank
+[2026-08-03 08:31:12] [INFO] STEP 1: Opening Login page
+[2026-08-03 08:31:12] [INFO] STEP 1: Navigating to: /
+[2026-08-03 08:31:13] [INFO] Navigation completed to: /
+[2026-08-03 08:31:13] [INFO] Navigation completed to: /
+[2026-08-03 08:31:13] [INFO] Navigation completed to: /
+[2026-08-03 08:31:13] [INFO] Login page opened successfully
+[2026-08-03 08:31:13] [INFO] STEP 2: Performing login flow
+[2026-08-03 08:31:13] [INFO] STEP 3: Filling locator with provided text
+[2026-08-03 08:31:13] [INFO] Login page opened successfully
+[2026-08-03 08:31:13] [INFO] STEP 2: Performing login flow
+[2026-08-03 08:31:13] [INFO] STEP 3: Filling locator with provided text
+[2026-08-03 08:31:13] [INFO] Navigation completed to: /
+[2026-08-03 08:31:13] [INFO] Login page opened successfully
+[2026-08-03 08:31:13] [INFO] STEP 2: Performing login flow
+[2026-08-03 08:31:13] [INFO] STEP 3: Filling locator with provided text
+[2026-08-03 08:31:13] [INFO] Login page opened successfully
+[2026-08-03 08:31:13] [INFO] STEP 2: Performing login flow
+[2026-08-03 08:31:13] [INFO] STEP 3: Filling locator with provided text
+[2026-08-03 08:31:13] [INFO] Fill action completed successfully
+[2026-08-03 08:31:13] [INFO] STEP 3: Filling locator with provided text
+[2026-08-03 08:31:13] [INFO] Fill action completed successfully
+[2026-08-03 08:31:13] [INFO] Fill action completed successfully
+[2026-08-03 08:31:13] [INFO] Fill action completed successfully
+[2026-08-03 08:31:13] [INFO] STEP 3: Filling locator with provided text
+[2026-08-03 08:31:13] [INFO] STEP 3: Filling locator with provided text
+[2026-08-03 08:31:13] [INFO] STEP 3: Filling locator with provided text
+[2026-08-03 08:31:13] [INFO] Fill action completed successfully
+[2026-08-03 08:31:13] [INFO] Fill action completed successfully
+[2026-08-03 08:31:13] [INFO] Fill action completed successfully
+[2026-08-03 08:31:13] [INFO] STEP 2: Clicking locator
+[2026-08-03 08:31:13] [INFO] Fill action completed successfully
+[2026-08-03 08:31:13] [INFO] STEP 2: Clicking locator
+[2026-08-03 08:31:13] [INFO] STEP 2: Clicking locator
+[2026-08-03 08:31:13] [INFO] STEP 2: Clicking locator
+[2026-08-03 08:31:13] [INFO] Click action completed successfully
+[2026-08-03 08:31:13] [INFO] Login submission completed
+[2026-08-03 08:31:13] [INFO] Click action completed successfully
+[2026-08-03 08:31:13] [INFO] Click action completed successfully
+[2026-08-03 08:31:13] [INFO] Login submission completed
+[2026-08-03 08:31:13] [INFO] STEP 3: Checking whether inventory page is loaded
+[2026-08-03 08:31:13] [INFO] Login submission completed
+[2026-08-03 08:31:13] [INFO] STEP 3: Checking whether inventory page is loaded
+[2026-08-03 08:31:13] [INFO] Inventory page loaded status: true
+[2026-08-03 08:31:13] [INFO] Inventory page loaded status: true
+[2026-08-03 08:31:18] [INFO] Click action completed successfully
+[2026-08-03 08:31:18] [INFO] Login submission completed
+[2026-08-03 08:31:18] [INFO] STEP 3: Checking whether inventory page is loaded
+[2026-08-03 08:31:18] [INFO] Inventory page loaded status: true
+[2026-08-03 08:31:37] [INFO] BasePage initialized for page: about:blank
+[2026-08-03 08:31:37] [INFO] BasePage initialized for page: about:blank
+[2026-08-03 08:31:37] [INFO] BasePage initialized for page: about:blank
+[2026-08-03 08:31:37] [INFO] BasePage initialized for page: about:blank
+[2026-08-03 08:31:37] [INFO] STEP 1: Opening Login page
+[2026-08-03 08:31:37] [INFO] STEP 1: Navigating to: /
+[2026-08-03 08:31:37] [INFO] BasePage initialized for page: about:blank
+[2026-08-03 08:31:37] [INFO] STEP 1: Opening Login page
+[2026-08-03 08:31:37] [INFO] STEP 1: Navigating to: /
+[2026-08-03 08:31:37] [INFO] BasePage initialized for page: about:blank
+[2026-08-03 08:31:37] [INFO] STEP 1: Opening Login page
+[2026-08-03 08:31:37] [INFO] STEP 1: Navigating to: /
+[2026-08-03 08:31:37] [INFO] BasePage initialized for page: about:blank
+[2026-08-03 08:31:37] [INFO] BasePage initialized for page: about:blank
+[2026-08-03 08:31:37] [INFO] STEP 1: Opening Login page
+[2026-08-03 08:31:37] [INFO] STEP 1: Navigating to: /
+[2026-08-03 08:31:38] [INFO] Navigation completed to: /
+[2026-08-03 08:31:38] [INFO] Navigation completed to: /
+[2026-08-03 08:31:38] [INFO] Navigation completed to: /
+[2026-08-03 08:31:38] [INFO] Navigation completed to: /
+[2026-08-03 08:31:38] [INFO] Login page opened successfully
+[2026-08-03 08:31:38] [INFO] STEP 2: Performing login flow
+[2026-08-03 08:31:38] [INFO] STEP 3: Filling locator with provided text
+[2026-08-03 08:31:38] [INFO] Login page opened successfully
+[2026-08-03 08:31:38] [INFO] STEP 2: Performing login flow
+[2026-08-03 08:31:38] [INFO] STEP 3: Filling locator with provided text
+[2026-08-03 08:31:38] [INFO] Login page opened successfully
+[2026-08-03 08:31:38] [INFO] STEP 2: Performing login flow
+[2026-08-03 08:31:38] [INFO] STEP 3: Filling locator with provided text
+[2026-08-03 08:31:38] [INFO] Login page opened successfully
+[2026-08-03 08:31:38] [INFO] STEP 2: Performing login flow
+[2026-08-03 08:31:38] [INFO] STEP 3: Filling locator with provided text
+[2026-08-03 08:31:38] [INFO] Fill action completed successfully
+[2026-08-03 08:31:38] [INFO] Fill action completed successfully
+[2026-08-03 08:31:38] [INFO] Fill action completed successfully
+[2026-08-03 08:31:38] [INFO] Fill action completed successfully
+[2026-08-03 08:31:38] [INFO] STEP 3: Filling locator with provided text
+[2026-08-03 08:31:38] [INFO] STEP 3: Filling locator with provided text
+[2026-08-03 08:31:38] [INFO] STEP 3: Filling locator with provided text
+[2026-08-03 08:31:38] [INFO] STEP 3: Filling locator with provided text
+[2026-08-03 08:31:38] [INFO] Fill action completed successfully
+[2026-08-03 08:31:38] [INFO] Fill action completed successfully
+[2026-08-03 08:31:38] [INFO] Fill action completed successfully
+[2026-08-03 08:31:38] [INFO] STEP 2: Clicking locator
+[2026-08-03 08:31:38] [INFO] STEP 2: Clicking locator
+[2026-08-03 08:31:38] [INFO] Fill action completed successfully
+[2026-08-03 08:31:38] [INFO] STEP 2: Clicking locator
+[2026-08-03 08:31:38] [INFO] STEP 2: Clicking locator
+[2026-08-03 08:31:38] [INFO] Click action completed successfully
+[2026-08-03 08:31:38] [INFO] Login submission completed
+[2026-08-03 08:31:38] [INFO] Click action completed successfully
+[2026-08-03 08:31:38] [INFO] Click action completed successfully
+[2026-08-03 08:31:38] [INFO] Login submission completed
+[2026-08-03 08:31:38] [INFO] STEP 3: Checking whether inventory page is loaded
+[2026-08-03 08:31:38] [INFO] Login submission completed
+[2026-08-03 08:31:38] [INFO] STEP 3: Checking whether inventory page is loaded
+[2026-08-03 08:31:38] [INFO] Inventory page loaded status: true
+[2026-08-03 08:31:38] [INFO] Inventory page loaded status: true
+[2026-08-03 08:31:43] [INFO] Click action completed successfully
+[2026-08-03 08:31:43] [INFO] Login submission completed
+[2026-08-03 08:31:43] [INFO] STEP 3: Checking whether inventory page is loaded
+[2026-08-03 08:31:43] [INFO] Inventory page loaded status: true

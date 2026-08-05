@@ -1,0 +1,5 @@
+"DESCRIPTION","DURATION IN MS","NAME","PARENT SUITE","START TIME","STATUS","STOP TIME","SUB SUITE","SUITE","TEST CLASS","TEST METHOD"
+"","6631","Login Test - performance","chromium","2026-08-03","passed","2026-08-03","","datadrivern.spec.js","",""
+"","1479","Login Test - standard","chromium","2026-08-03","passed","2026-08-03","","datadrivern.spec.js","",""
+"","1482","Login Test - problem","chromium","2026-08-03","passed","2026-08-03","","datadrivern.spec.js","",""
+"","6701","Login Test - lockedOut","chromium","2026-08-03","failed","2026-08-03","","datadrivern.spec.js","",""

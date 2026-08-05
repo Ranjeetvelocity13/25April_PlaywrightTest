@@ -1,0 +1,688 @@
+{
+  "config": {
+    "argv": [
+      "/usr/local/bin/node",
+      "/Users/ranjeetkendre/Desktop/25_April_PlaywrightFramework 2/node_modules/.bin/playwright",
+      "test"
+    ],
+    "configFile": "/Users/ranjeetkendre/Desktop/25_April_PlaywrightFramework 2/playwright.config.js",
+    "rootDir": "/Users/ranjeetkendre/Desktop/25_April_PlaywrightFramework 2/tests",
+    "failOnFlakyTests": false,
+    "forbidOnly": false,
+    "fullyParallel": true,
+    "globalSetup": null,
+    "globalTeardown": null,
+    "globalTimeout": 0,
+    "grep": {},
+    "grepInvert": null,
+    "maxFailures": 0,
+    "metadata": {
+      "actualWorkers": 4
+    },
+    "preserveOutput": "always",
+    "projects": [
+      {
+        "outputDir": "/Users/ranjeetkendre/Desktop/25_April_PlaywrightFramework 2/test-results",
+        "repeatEach": 1,
+        "retries": 0,
+        "metadata": {
+          "actualWorkers": 4
+        },
+        "id": "chromium",
+        "name": "chromium",
+        "testDir": "/Users/ranjeetkendre/Desktop/25_April_PlaywrightFramework 2/tests",
+        "testIgnore": [],
+        "testMatch": [
+          "**/*.@(spec|test).?(c|m)[jt]s?(x)"
+        ],
+        "timeout": 30000
+      }
+    ],
+    "quiet": false,
+    "reporter": [
+      [
+        "list",
+        null
+      ],
+      [
+        "html",
+        {
+          "outputFolder": "reports/html-report",
+          "open": "never"
+        }
+      ],
+      [
+        "json",
+        {
+          "outputFile": "reports/json-report/results.json"
+        }
+      ],
+      [
+        "junit",
+        {
+          "outputFile": "reports/junit-report/results.xml"
+        }
+      ],
+      [
+        "/Users/ranjeetkendre/Desktop/25_April_PlaywrightFramework 2/node_modules/allure-playwright/dist/cjs/index.js",
+        {
+          "resultsDir": "reports/allure-results",
+          "detail": true,
+          "suiteTitle": true
+        }
+      ]
+    ],
+    "reportSlowTests": {
+      "max": 5,
+      "threshold": 300000
+    },
+    "shard": null,
+    "tags": [],
+    "updateSnapshots": "missing",
+    "updateSourceMethod": "patch",
+    "version": "1.62.0",
+    "workers": 4,
+    "webServer": null
+  },
+  "suites": [
+    {
+      "title": "datadriver.spec.js",
+      "file": "datadriver.spec.js",
+      "column": 0,
+      "line": 0,
+      "specs": [
+        {
+          "title": "Login Test - standard",
+          "ok": true,
+          "tags": [],
+          "tests": [
+            {
+              "timeout": 30000,
+              "annotations": [],
+              "expectedStatus": "passed",
+              "projectId": "chromium",
+              "projectName": "chromium",
+              "results": [
+                {
+                  "workerIndex": 0,
+                  "parallelIndex": 0,
+                  "status": "passed",
+                  "duration": 2153,
+                  "errors": [],
+                  "stdout": [
+                    {
+                      "text": "[2026-08-03 01:10:16] [\u001b[32MINFO\u001b[39M] BasePage initialized for page: about:blank\n"
+                    },
+                    {
+                      "text": "[2026-08-03 01:10:16] [\u001b[32MINFO\u001b[39M] BasePage initialized for page: about:blank\n"
+                    },
+                    {
+                      "text": "[2026-08-03 01:10:16] [\u001b[32MINFO\u001b[39M] STEP 1: Opening Login page\n"
+                    },
+                    {
+                      "text": "[2026-08-03 01:10:16] [\u001b[32MINFO\u001b[39M] STEP 1: Navigating to: /\n"
+                    },
+                    {
+                      "text": "[2026-08-03 01:10:17] [\u001b[32MINFO\u001b[39M] Navigation completed to: /\n"
+                    },
+                    {
+                      "text": "[2026-08-03 01:10:17] [\u001b[32MINFO\u001b[39M] Login page opened successfully\n"
+                    },
+                    {
+                      "text": "[2026-08-03 01:10:17] [\u001b[32MINFO\u001b[39M] STEP 2: Performing login flow\n"
+                    },
+                    {
+                      "text": "[2026-08-03 01:10:17] [\u001b[32MINFO\u001b[39M] STEP 3: Filling locator with provided text\n"
+                    },
+                    {
+                      "text": "[2026-08-03 01:10:17] [\u001b[32MINFO\u001b[39M] Fill action completed successfully\n"
+                    },
+                    {
+                      "text": "[2026-08-03 01:10:17] [\u001b[32MINFO\u001b[39M] STEP 3: Filling locator with provided text\n"
+                    },
+                    {
+                      "text": "[2026-08-03 01:10:17] [\u001b[32MINFO\u001b[39M] Fill action completed successfully\n"
+                    },
+                    {
+                      "text": "[2026-08-03 01:10:17] [\u001b[32MINFO\u001b[39M] STEP 2: Clicking locator\n"
+                    },
+                    {
+                      "text": "[2026-08-03 01:10:18] [\u001b[32MINFO\u001b[39M] Click action completed successfully\n"
+                    },
+                    {
+                      "text": "[2026-08-03 01:10:18] [\u001b[32MINFO\u001b[39M] Login submission completed\n"
+                    },
+                    {
+                      "text": "[2026-08-03 01:10:18] [\u001b[32MINFO\u001b[39M] STEP 3: Checking whether inventory page is loaded\n"
+                    },
+                    {
+                      "text": "[2026-08-03 01:10:18] [\u001b[32MINFO\u001b[39M] Inventory page loaded status: true\n"
+                    }
+                  ],
+                  "stderr": [],
+                  "retry": 0,
+                  "startTime": "2026-08-02T19:40:15.572Z",
+                  "annotations": [],
+                  "attachments": []
+                }
+              ],
+              "status": "expected"
+            }
+          ],
+          "id": "11cb7b76bddcb7ff8643-11e0701f9ab6d7693ce8",
+          "file": "datadriver.spec.js",
+          "line": 8,
+          "column": 9
+        },
+        {
+          "title": "Login Test - problem",
+          "ok": true,
+          "tags": [],
+          "tests": [
+            {
+              "timeout": 30000,
+              "annotations": [],
+              "expectedStatus": "passed",
+              "projectId": "chromium",
+              "projectName": "chromium",
+              "results": [
+                {
+                  "workerIndex": 1,
+                  "parallelIndex": 1,
+                  "status": "passed",
+                  "duration": 2053,
+                  "errors": [],
+                  "stdout": [
+                    {
+                      "text": "[2026-08-03 01:10:16] [\u001b[32MINFO\u001b[39M] BasePage initialized for page: about:blank\n"
+                    },
+                    {
+                      "text": "[2026-08-03 01:10:16] [\u001b[32MINFO\u001b[39M] BasePage initialized for page: about:blank\n"
+                    },
+                    {
+                      "text": "[2026-08-03 01:10:16] [\u001b[32MINFO\u001b[39M] STEP 1: Opening Login page\n"
+                    },
+                    {
+                      "text": "[2026-08-03 01:10:16] [\u001b[32MINFO\u001b[39M] STEP 1: Navigating to: /\n"
+                    },
+                    {
+                      "text": "[2026-08-03 01:10:17] [\u001b[32MINFO\u001b[39M] Navigation completed to: /\n"
+                    },
+                    {
+                      "text": "[2026-08-03 01:10:17] [\u001b[32MINFO\u001b[39M] Login page opened successfully\n"
+                    },
+                    {
+                      "text": "[2026-08-03 01:10:17] [\u001b[32MINFO\u001b[39M] STEP 2: Performing login flow\n"
+                    },
+                    {
+                      "text": "[2026-08-03 01:10:17] [\u001b[32MINFO\u001b[39M] STEP 3: Filling locator with provided text\n"
+                    },
+                    {
+                      "text": "[2026-08-03 01:10:17] [\u001b[32MINFO\u001b[39M] Fill action completed successfully\n"
+                    },
+                    {
+                      "text": "[2026-08-03 01:10:17] [\u001b[32MINFO\u001b[39M] STEP 3: Filling locator with provided text\n"
+                    },
+                    {
+                      "text": "[2026-08-03 01:10:17] [\u001b[32MINFO\u001b[39M] Fill action completed successfully\n"
+                    },
+                    {
+                      "text": "[2026-08-03 01:10:17] [\u001b[32MINFO\u001b[39M] STEP 2: Clicking locator\n"
+                    },
+                    {
+                      "text": "[2026-08-03 01:10:18] [\u001b[32MINFO\u001b[39M] Click action completed successfully\n"
+                    },
+                    {
+                      "text": "[2026-08-03 01:10:18] [\u001b[32MINFO\u001b[39M] Login submission completed\n"
+                    },
+                    {
+                      "text": "[2026-08-03 01:10:18] [\u001b[32MINFO\u001b[39M] STEP 3: Checking whether inventory page is loaded\n"
+                    },
+                    {
+                      "text": "[2026-08-03 01:10:18] [\u001b[32MINFO\u001b[39M] Inventory page loaded status: true\n"
+                    }
+                  ],
+                  "stderr": [],
+                  "retry": 0,
+                  "startTime": "2026-08-02T19:40:15.579Z",
+                  "annotations": [],
+                  "attachments": []
+                }
+              ],
+              "status": "expected"
+            }
+          ],
+          "id": "11cb7b76bddcb7ff8643-e0821de41f24956af71b",
+          "file": "datadriver.spec.js",
+          "line": 8,
+          "column": 9
+        },
+        {
+          "title": "Login Test - performance",
+          "ok": true,
+          "tags": [],
+          "tests": [
+            {
+              "timeout": 30000,
+              "annotations": [],
+              "expectedStatus": "passed",
+              "projectId": "chromium",
+              "projectName": "chromium",
+              "results": [
+                {
+                  "workerIndex": 2,
+                  "parallelIndex": 2,
+                  "status": "passed",
+                  "duration": 7147,
+                  "errors": [],
+                  "stdout": [
+                    {
+                      "text": "[2026-08-03 01:10:16] [\u001b[32MINFO\u001b[39M] BasePage initialized for page: about:blank\n"
+                    },
+                    {
+                      "text": "[2026-08-03 01:10:16] [\u001b[32MINFO\u001b[39M] BasePage initialized for page: about:blank\n"
+                    },
+                    {
+                      "text": "[2026-08-03 01:10:16] [\u001b[32MINFO\u001b[39M] STEP 1: Opening Login page\n"
+                    },
+                    {
+                      "text": "[2026-08-03 01:10:16] [\u001b[32MINFO\u001b[39M] STEP 1: Navigating to: /\n"
+                    },
+                    {
+                      "text": "[2026-08-03 01:10:17] [\u001b[32MINFO\u001b[39M] Navigation completed to: /\n"
+                    },
+                    {
+                      "text": "[2026-08-03 01:10:17] [\u001b[32MINFO\u001b[39M] Login page opened successfully\n"
+                    },
+                    {
+                      "text": "[2026-08-03 01:10:17] [\u001b[32MINFO\u001b[39M] STEP 2: Performing login flow\n"
+                    },
+                    {
+                      "text": "[2026-08-03 01:10:17] [\u001b[32MINFO\u001b[39M] STEP 3: Filling locator with provided text\n"
+                    },
+                    {
+                      "text": "[2026-08-03 01:10:17] [\u001b[32MINFO\u001b[39M] Fill action completed successfully\n"
+                    },
+                    {
+                      "text": "[2026-08-03 01:10:17] [\u001b[32MINFO\u001b[39M] STEP 3: Filling locator with provided text\n"
+                    },
+                    {
+                      "text": "[2026-08-03 01:10:17] [\u001b[32MINFO\u001b[39M] Fill action completed successfully\n"
+                    },
+                    {
+                      "text": "[2026-08-03 01:10:17] [\u001b[32MINFO\u001b[39M] STEP 2: Clicking locator\n"
+                    },
+                    {
+                      "text": "[2026-08-03 01:10:23] [\u001b[32MINFO\u001b[39M] Click action completed successfully\n"
+                    },
+                    {
+                      "text": "[2026-08-03 01:10:23] [\u001b[32MINFO\u001b[39M] Login submission completed\n"
+                    },
+                    {
+                      "text": "[2026-08-03 01:10:23] [\u001b[32MINFO\u001b[39M] STEP 3: Checking whether inventory page is loaded\n"
+                    },
+                    {
+                      "text": "[2026-08-03 01:10:23] [\u001b[32MINFO\u001b[39M] Inventory page loaded status: true\n"
+                    }
+                  ],
+                  "stderr": [],
+                  "retry": 0,
+                  "startTime": "2026-08-02T19:40:15.565Z",
+                  "annotations": [],
+                  "attachments": []
+                }
+              ],
+              "status": "expected"
+            }
+          ],
+          "id": "11cb7b76bddcb7ff8643-bf2d600e0c3653829153",
+          "file": "datadriver.spec.js",
+          "line": 8,
+          "column": 9
+        },
+        {
+          "title": "Login Test - lockedOut",
+          "ok": true,
+          "tags": [],
+          "tests": [
+            {
+              "timeout": 30000,
+              "annotations": [],
+              "expectedStatus": "passed",
+              "projectId": "chromium",
+              "projectName": "chromium",
+              "results": [
+                {
+                  "workerIndex": 3,
+                  "parallelIndex": 3,
+                  "status": "passed",
+                  "duration": 2140,
+                  "errors": [],
+                  "stdout": [
+                    {
+                      "text": "[2026-08-03 01:10:16] [\u001b[32MINFO\u001b[39M] BasePage initialized for page: about:blank\n"
+                    },
+                    {
+                      "text": "[2026-08-03 01:10:16] [\u001b[32MINFO\u001b[39M] BasePage initialized for page: about:blank\n"
+                    },
+                    {
+                      "text": "[2026-08-03 01:10:16] [\u001b[32MINFO\u001b[39M] STEP 1: Opening Login page\n"
+                    },
+                    {
+                      "text": "[2026-08-03 01:10:16] [\u001b[32MINFO\u001b[39M] STEP 1: Navigating to: /\n"
+                    },
+                    {
+                      "text": "[2026-08-03 01:10:17] [\u001b[32MINFO\u001b[39M] Navigation completed to: /\n"
+                    },
+                    {
+                      "text": "[2026-08-03 01:10:17] [\u001b[32MINFO\u001b[39M] Login page opened successfully\n"
+                    },
+                    {
+                      "text": "[2026-08-03 01:10:17] [\u001b[32MINFO\u001b[39M] STEP 2: Performing login flow\n"
+                    },
+                    {
+                      "text": "[2026-08-03 01:10:17] [\u001b[32MINFO\u001b[39M] STEP 3: Filling locator with provided text\n"
+                    },
+                    {
+                      "text": "[2026-08-03 01:10:17] [\u001b[32MINFO\u001b[39M] Fill action completed successfully\n"
+                    },
+                    {
+                      "text": "[2026-08-03 01:10:17] [\u001b[32MINFO\u001b[39M] STEP 3: Filling locator with provided text\n"
+                    },
+                    {
+                      "text": "[2026-08-03 01:10:17] [\u001b[32MINFO\u001b[39M] Fill action completed successfully\n"
+                    },
+                    {
+                      "text": "[2026-08-03 01:10:17] [\u001b[32MINFO\u001b[39M] STEP 2: Clicking locator\n"
+                    },
+                    {
+                      "text": "[2026-08-03 01:10:18] [\u001b[32MINFO\u001b[39M] Click action completed successfully\n"
+                    },
+                    {
+                      "text": "[2026-08-03 01:10:18] [\u001b[32MINFO\u001b[39M] Login submission completed\n"
+                    }
+                  ],
+                  "stderr": [],
+                  "retry": 0,
+                  "startTime": "2026-08-02T19:40:15.571Z",
+                  "annotations": [],
+                  "attachments": []
+                }
+              ],
+              "status": "expected"
+            }
+          ],
+          "id": "11cb7b76bddcb7ff8643-2196d2ccce3fd3199e47",
+          "file": "datadriver.spec.js",
+          "line": 8,
+          "column": 9
+        }
+      ]
+    },
+    {
+      "title": "positiveLogin.spec.js",
+      "file": "positiveLogin.spec.js",
+      "column": 0,
+      "line": 0,
+      "specs": [
+        {
+          "title": "Valid use can log in",
+          "ok": true,
+          "tags": [],
+          "tests": [
+            {
+              "timeout": 30000,
+              "annotations": [],
+              "expectedStatus": "passed",
+              "projectId": "chromium",
+              "projectName": "chromium",
+              "results": [
+                {
+                  "workerIndex": 0,
+                  "parallelIndex": 0,
+                  "status": "passed",
+                  "duration": 784,
+                  "errors": [],
+                  "stdout": [
+                    {
+                      "text": "[2026-08-03 01:10:18] [\u001b[32MINFO\u001b[39M] BasePage initialized for page: about:blank\n"
+                    },
+                    {
+                      "text": "[2026-08-03 01:10:18] [\u001b[32MINFO\u001b[39M] BasePage initialized for page: about:blank\n"
+                    },
+                    {
+                      "text": "[2026-08-03 01:10:18] [\u001b[32MINFO\u001b[39M] ========== TEST START: Valid use can log in ==========\n"
+                    },
+                    {
+                      "text": "[2026-08-03 01:10:18] [\u001b[32MINFO\u001b[39M] STEP 1: Starting login validation test\n"
+                    },
+                    {
+                      "text": "[2026-08-03 01:10:18] [\u001b[32MINFO\u001b[39M] STEP 1: Opening Login page\n"
+                    },
+                    {
+                      "text": "[2026-08-03 01:10:18] [\u001b[32MINFO\u001b[39M] STEP 1: Navigating to: /\n"
+                    },
+                    {
+                      "text": "[2026-08-03 01:10:18] [\u001b[32MINFO\u001b[39M] Navigation completed to: /\n"
+                    },
+                    {
+                      "text": "[2026-08-03 01:10:18] [\u001b[32MINFO\u001b[39M] Login page opened successfully\n"
+                    },
+                    {
+                      "text": "[2026-08-03 01:10:18] [\u001b[32MINFO\u001b[39M] STEP 2: Performing login flow\n"
+                    },
+                    {
+                      "text": "[2026-08-03 01:10:18] [\u001b[32MINFO\u001b[39M] STEP 3: Filling locator with provided text\n"
+                    },
+                    {
+                      "text": "[2026-08-03 01:10:18] [\u001b[32MINFO\u001b[39M] Fill action completed successfully\n"
+                    },
+                    {
+                      "text": "[2026-08-03 01:10:18] [\u001b[32MINFO\u001b[39M] STEP 3: Filling locator with provided text\n"
+                    },
+                    {
+                      "text": "[2026-08-03 01:10:18] [\u001b[32MINFO\u001b[39M] Fill action completed successfully\n"
+                    },
+                    {
+                      "text": "[2026-08-03 01:10:18] [\u001b[32MINFO\u001b[39M] STEP 2: Clicking locator\n"
+                    },
+                    {
+                      "text": "[2026-08-03 01:10:18] [\u001b[32MINFO\u001b[39M] Click action completed successfully\n"
+                    },
+                    {
+                      "text": "[2026-08-03 01:10:18] [\u001b[32MINFO\u001b[39M] Login submission completed\n"
+                    },
+                    {
+                      "text": "[2026-08-03 01:10:18] [\u001b[32MINFO\u001b[39M] STEP 3: Checking whether inventory page is loaded\n"
+                    },
+                    {
+                      "text": "[2026-08-03 01:10:19] [\u001b[32MINFO\u001b[39M] Inventory page loaded status: true\n"
+                    },
+                    {
+                      "text": "[2026-08-03 01:10:19] [\u001b[32MINFO\u001b[39M] STEP 2: Login validation completed successfully\n"
+                    },
+                    {
+                      "text": "[2026-08-03 01:10:19] [\u001b[32MINFO\u001b[39M] ✅ TEST PASSED: Valid use can log in\n"
+                    }
+                  ],
+                  "stderr": [],
+                  "retry": 0,
+                  "startTime": "2026-08-02T19:40:18.235Z",
+                  "annotations": [],
+                  "attachments": []
+                }
+              ],
+              "status": "expected"
+            }
+          ],
+          "id": "3f6ed8bd5e66fa602a75-3d268ec02d63f10512ad",
+          "file": "positiveLogin.spec.js",
+          "line": 12,
+          "column": 5
+        },
+        {
+          "title": "Valid user can log in with",
+          "ok": true,
+          "tags": [],
+          "tests": [
+            {
+              "timeout": 30000,
+              "annotations": [],
+              "expectedStatus": "passed",
+              "projectId": "chromium",
+              "projectName": "chromium",
+              "results": [
+                {
+                  "workerIndex": 3,
+                  "parallelIndex": 3,
+                  "status": "passed",
+                  "duration": 5925,
+                  "errors": [],
+                  "stdout": [
+                    {
+                      "text": "[2026-08-03 01:10:18] [\u001b[32MINFO\u001b[39M] BasePage initialized for page: about:blank\n"
+                    },
+                    {
+                      "text": "[2026-08-03 01:10:18] [\u001b[32MINFO\u001b[39M] STEP 1: Opening Login page\n"
+                    },
+                    {
+                      "text": "[2026-08-03 01:10:18] [\u001b[32MINFO\u001b[39M] STEP 1: Navigating to: /\n"
+                    },
+                    {
+                      "text": "[2026-08-03 01:10:18] [\u001b[32MINFO\u001b[39M] Navigation completed to: /\n"
+                    },
+                    {
+                      "text": "[2026-08-03 01:10:18] [\u001b[32MINFO\u001b[39M] Login page opened successfully\n"
+                    },
+                    {
+                      "text": "[2026-08-03 01:10:18] [\u001b[32MINFO\u001b[39M] STEP 2: Performing login flow\n"
+                    },
+                    {
+                      "text": "[2026-08-03 01:10:18] [\u001b[32MINFO\u001b[39M] STEP 3: Filling locator with provided text\n"
+                    },
+                    {
+                      "text": "[2026-08-03 01:10:18] [\u001b[32MINFO\u001b[39M] Fill action completed successfully\n"
+                    },
+                    {
+                      "text": "[2026-08-03 01:10:18] [\u001b[32MINFO\u001b[39M] STEP 3: Filling locator with provided text\n"
+                    },
+                    {
+                      "text": "[2026-08-03 01:10:18] [\u001b[32MINFO\u001b[39M] Fill action completed successfully\n"
+                    },
+                    {
+                      "text": "[2026-08-03 01:10:18] [\u001b[32MINFO\u001b[39M] STEP 2: Clicking locator\n"
+                    },
+                    {
+                      "text": "[2026-08-03 01:10:19] [\u001b[32MINFO\u001b[39M] Click action completed successfully\n"
+                    },
+                    {
+                      "text": "[2026-08-03 01:10:19] [\u001b[32MINFO\u001b[39M] Login submission completed\n"
+                    },
+                    {
+                      "text": "[2026-08-03 01:10:19] [\u001b[32MINFO\u001b[39M] BasePage initialized for page: https://www.saucedemo.com/inventory.html\n"
+                    },
+                    {
+                      "text": "[2026-08-03 01:10:19] [\u001b[32MINFO\u001b[39M] ========== TEST START: Valid user can log in with ==========\n"
+                    },
+                    {
+                      "text": "[2026-08-03 01:10:19] [\u001b[32MINFO\u001b[39M] STEP 1: Adding Sauce Labs Backpack to cart\n"
+                    },
+                    {
+                      "text": "[2026-08-03 01:10:19] [\u001b[32MINFO\u001b[39M] STEP 1: Adding product to cart: Sauce Labs Backpack\n"
+                    },
+                    {
+                      "text": "[2026-08-03 01:10:19] [\u001b[32MINFO\u001b[39M] STEP 2: Clicking locator\n"
+                    },
+                    {
+                      "text": "[2026-08-03 01:10:19] [\u001b[32MINFO\u001b[39M] Click action completed successfully\n"
+                    },
+                    {
+                      "text": "[2026-08-03 01:10:19] [\u001b[32MINFO\u001b[39M] Product added to cart: Sauce Labs Backpack\n"
+                    },
+                    {
+                      "text": "[2026-08-03 01:10:24] [\u001b[32MINFO\u001b[39M] STEP 2: Cart action completed\n"
+                    },
+                    {
+                      "text": "[2026-08-03 01:10:24] [\u001b[32MINFO\u001b[39M] ✅ TEST PASSED: Valid user can log in with\n"
+                    }
+                  ],
+                  "stderr": [],
+                  "retry": 0,
+                  "startTime": "2026-08-02T19:40:18.234Z",
+                  "annotations": [],
+                  "attachments": []
+                }
+              ],
+              "status": "expected"
+            }
+          ],
+          "id": "3f6ed8bd5e66fa602a75-f5352a50b84b97ade2c0",
+          "file": "positiveLogin.spec.js",
+          "line": 26,
+          "column": 5
+        },
+        {
+          "title": "Failure Check",
+          "ok": true,
+          "tags": [],
+          "tests": [
+            {
+              "timeout": 30000,
+              "annotations": [
+                {
+                  "type": "skip",
+                  "location": {
+                    "file": "/Users/ranjeetkendre/Desktop/25_April_PlaywrightFramework 2/tests/positiveLogin.spec.js",
+                    "line": 39,
+                    "column": 6
+                  }
+                }
+              ],
+              "expectedStatus": "skipped",
+              "projectId": "chromium",
+              "projectName": "chromium",
+              "results": [
+                {
+                  "workerIndex": -1,
+                  "parallelIndex": -1,
+                  "status": "skipped",
+                  "duration": 0,
+                  "errors": [],
+                  "stdout": [],
+                  "stderr": [],
+                  "retry": 0,
+                  "startTime": "2026-08-02T19:40:18.231Z",
+                  "annotations": [
+                    {
+                      "type": "skip",
+                      "location": {
+                        "file": "/Users/ranjeetkendre/Desktop/25_April_PlaywrightFramework 2/tests/positiveLogin.spec.js",
+                        "line": 39,
+                        "column": 6
+                      }
+                    }
+                  ],
+                  "attachments": []
+                }
+              ],
+              "status": "skipped"
+            }
+          ],
+          "id": "3f6ed8bd5e66fa602a75-79a4fbfc295f2b39cd45",
+          "file": "positiveLogin.spec.js",
+          "line": 39,
+          "column": 6
+        }
+      ]
+    }
+  ],
+  "errors": [],
+  "stats": {
+    "startTime": "2026-08-02T19:40:15.037Z",
+    "duration": 9190.636999999999,
+    "expected": 6,
+    "skipped": 1,
+    "unexpected": 0,
+    "flaky": 0
+  }
+}

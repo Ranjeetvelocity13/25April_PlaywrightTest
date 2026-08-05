@@ -1,0 +1,20 @@
+{
+    "standard": {
+        "username": "standard_user",
+        "canLogin": true
+    },
+    "problem": {
+        "username": "problem_user",
+        "password": "test",
+        "canLogin": true
+    },
+    "performance": {
+        "username": "performance_glitch_user",
+        "canLogin": true
+    },
+    "lockedOut": {
+        "username": "locked_out_user",
+        "canLogin": false,
+        "errorMessage": "Epic sadface: Sorry, this user has been out."
+    }
+}

@@ -1,0 +1,142 @@
+<testsuites id="" name="" tests="4" failures="1" skipped="0" errors="0" time="8.101313">
+<testsuite name="datadrivern.spec.js" timestamp="2026-08-03T03:01:36.066Z" hostname="chromium" tests="4" failures="1" skipped="0" time="16.293" errors="0">
+<testcase name="Login Test - standard" classname="datadrivern.spec.js" time="1.479">
+<system-out>
+<![CDATA[[2026-08-03 08:31:37] [[32MINFO[39M] BasePage initialized for page: about:blank
+[2026-08-03 08:31:37] [[32MINFO[39M] BasePage initialized for page: about:blank
+[2026-08-03 08:31:37] [[32MINFO[39M] STEP 1: Opening Login page
+[2026-08-03 08:31:37] [[32MINFO[39M] STEP 1: Navigating to: /
+[2026-08-03 08:31:38] [[32MINFO[39M] Navigation completed to: /
+[2026-08-03 08:31:38] [[32MINFO[39M] Login page opened successfully
+[2026-08-03 08:31:38] [[32MINFO[39M] STEP 2: Performing login flow
+[2026-08-03 08:31:38] [[32MINFO[39M] STEP 3: Filling locator with provided text
+[2026-08-03 08:31:38] [[32MINFO[39M] Fill action completed successfully
+[2026-08-03 08:31:38] [[32MINFO[39M] STEP 3: Filling locator with provided text
+[2026-08-03 08:31:38] [[32MINFO[39M] Fill action completed successfully
+[2026-08-03 08:31:38] [[32MINFO[39M] STEP 2: Clicking locator
+[2026-08-03 08:31:38] [[32MINFO[39M] Click action completed successfully
+[2026-08-03 08:31:38] [[32MINFO[39M] Login submission completed
+[2026-08-03 08:31:38] [[32MINFO[39M] STEP 3: Checking whether inventory page is loaded
+[2026-08-03 08:31:38] [[32MINFO[39M] Inventory page loaded status: true
+]]>
+</system-out>
+</testcase>
+<testcase name="Login Test - problem" classname="datadrivern.spec.js" time="1.482">
+<system-out>
+<![CDATA[[2026-08-03 08:31:37] [[32MINFO[39M] BasePage initialized for page: about:blank
+[2026-08-03 08:31:37] [[32MINFO[39M] BasePage initialized for page: about:blank
+[2026-08-03 08:31:37] [[32MINFO[39M] STEP 1: Opening Login page
+[2026-08-03 08:31:37] [[32MINFO[39M] STEP 1: Navigating to: /
+[2026-08-03 08:31:38] [[32MINFO[39M] Navigation completed to: /
+[2026-08-03 08:31:38] [[32MINFO[39M] Login page opened successfully
+[2026-08-03 08:31:38] [[32MINFO[39M] STEP 2: Performing login flow
+[2026-08-03 08:31:38] [[32MINFO[39M] STEP 3: Filling locator with provided text
+[2026-08-03 08:31:38] [[32MINFO[39M] Fill action completed successfully
+[2026-08-03 08:31:38] [[32MINFO[39M] STEP 3: Filling locator with provided text
+[2026-08-03 08:31:38] [[32MINFO[39M] Fill action completed successfully
+[2026-08-03 08:31:38] [[32MINFO[39M] STEP 2: Clicking locator
+[2026-08-03 08:31:38] [[32MINFO[39M] Click action completed successfully
+[2026-08-03 08:31:38] [[32MINFO[39M] Login submission completed
+[2026-08-03 08:31:38] [[32MINFO[39M] STEP 3: Checking whether inventory page is loaded
+[2026-08-03 08:31:38] [[32MINFO[39M] Inventory page loaded status: true
+]]>
+</system-out>
+</testcase>
+<testcase name="Login Test - performance" classname="datadrivern.spec.js" time="6.631">
+<system-out>
+<![CDATA[[2026-08-03 08:31:37] [[32MINFO[39M] BasePage initialized for page: about:blank
+[2026-08-03 08:31:37] [[32MINFO[39M] BasePage initialized for page: about:blank
+[2026-08-03 08:31:37] [[32MINFO[39M] STEP 1: Opening Login page
+[2026-08-03 08:31:37] [[32MINFO[39M] STEP 1: Navigating to: /
+[2026-08-03 08:31:38] [[32MINFO[39M] Navigation completed to: /
+[2026-08-03 08:31:38] [[32MINFO[39M] Login page opened successfully
+[2026-08-03 08:31:38] [[32MINFO[39M] STEP 2: Performing login flow
+[2026-08-03 08:31:38] [[32MINFO[39M] STEP 3: Filling locator with provided text
+[2026-08-03 08:31:38] [[32MINFO[39M] Fill action completed successfully
+[2026-08-03 08:31:38] [[32MINFO[39M] STEP 3: Filling locator with provided text
+[2026-08-03 08:31:38] [[32MINFO[39M] Fill action completed successfully
+[2026-08-03 08:31:38] [[32MINFO[39M] STEP 2: Clicking locator
+[2026-08-03 08:31:43] [[32MINFO[39M] Click action completed successfully
+[2026-08-03 08:31:43] [[32MINFO[39M] Login submission completed
+[2026-08-03 08:31:43] [[32MINFO[39M] STEP 3: Checking whether inventory page is loaded
+[2026-08-03 08:31:43] [[32MINFO[39M] Inventory page loaded status: true
+]]>
+</system-out>
+</testcase>
+<testcase name="Login Test - lockedOut" classname="datadrivern.spec.js" time="6.701">
+<system-out>
+<![CDATA[[2026-08-03 08:31:37] [[32MINFO[39M] BasePage initialized for page: about:blank
+[2026-08-03 08:31:37] [[32MINFO[39M] BasePage initialized for page: about:blank
+[2026-08-03 08:31:37] [[32MINFO[39M] STEP 1: Opening Login page
+[2026-08-03 08:31:37] [[32MINFO[39M] STEP 1: Navigating to: /
+[2026-08-03 08:31:38] [[32MINFO[39M] Navigation completed to: /
+[2026-08-03 08:31:38] [[32MINFO[39M] Login page opened successfully
+[2026-08-03 08:31:38] [[32MINFO[39M] STEP 2: Performing login flow
+[2026-08-03 08:31:38] [[32MINFO[39M] STEP 3: Filling locator with provided text
+[2026-08-03 08:31:38] [[32MINFO[39M] Fill action completed successfully
+[2026-08-03 08:31:38] [[32MINFO[39M] STEP 3: Filling locator with provided text
+[2026-08-03 08:31:38] [[32MINFO[39M] Fill action completed successfully
+[2026-08-03 08:31:38] [[32MINFO[39M] STEP 2: Clicking locator
+[2026-08-03 08:31:38] [[32MINFO[39M] Click action completed successfully
+[2026-08-03 08:31:38] [[32MINFO[39M] Login submission completed
+
+[[ATTACHMENT|../../test-results/datadrivern-Login-Test---lockedOut-chromium/test-failed-1.png]]
+
+[[ATTACHMENT|../../test-results/datadrivern-Login-Test---lockedOut-chromium/video.webm]]
+
+[[ATTACHMENT|../../test-results/datadrivern-Login-Test---lockedOut-chromium/error-context.md]]
+]]>
+</system-out>
+<failure message="expect(locator).toHaveText(expected) failed" type="expect.toHaveText">
+<![CDATA[  [chromium] › datadrivern.spec.js:16:10 › Login Test - lockedOut ──────────────────────────────────
+
+    Error: expect(locator).toHaveText(expected) failed
+
+    Locator:  locator('[data-test=\'error\']')
+    Expected: "Epic sadface: Sorry, this user has been out."
+    Received: "Epic sadface: Sorry, this user has been locked out."
+    Timeout:  5000ms
+
+    Call log:
+      - Expect "toHaveText" with timeout 5000ms
+      - waiting for locator('[data-test=\'error\']')
+        14 × locator resolved to <h3 data-test="error">…</h3>
+           - unexpected value "Epic sadface: Sorry, this user has been locked out."
+
+
+      23 |         }
+      24 |         else {
+    > 25 |             await expect(loginPage.errorMessage).toHaveText(user.errorMessage);
+         |                                                  ^
+      26 |         }
+      27 |     })
+      28 | }
+        at /Users/ranjeetkendre/Desktop/25_April_PlaywrightFramework 2/tests/datadrivern.spec.js:25:50
+
+    ReferenceError: logger is not defined
+
+       at ../fixtures/baseFixture.js:34
+
+      32 | test.afterEach(async ({ page }, testInfo) => {
+      33 |     if (testInfo.status !== testInfo.expectedStatus) {
+    > 34 |         logger.warn(`Test failed: "${testInfo.title}" — attaching screenshot`);
+         |         ^
+      35 |         try {
+      36 |             const screenshot = await page.screenshot({ fullPage: true });
+      37 |             await testInfo.attach('failure-screenshot', {
+        at /Users/ranjeetkendre/Desktop/25_April_PlaywrightFramework 2/fixtures/baseFixture.js:34:9
+
+    attachment #1: screenshot (image/png) ──────────────────────────────────────────────────────────
+    ../test-results/datadrivern-Login-Test---lockedOut-chromium/test-failed-1.png
+    ────────────────────────────────────────────────────────────────────────────────────────────────
+
+    attachment #2: video (video/webm) ──────────────────────────────────────────────────────────────
+    ../test-results/datadrivern-Login-Test---lockedOut-chromium/video.webm
+    ────────────────────────────────────────────────────────────────────────────────────────────────
+
+    Error Context: ../test-results/datadrivern-Login-Test---lockedOut-chromium/error-context.md
+]]>
+</failure>
+</testcase>
+</testsuite>
+</testsuites>

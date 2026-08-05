@@ -1,0 +1,28 @@
+[2026-08-01 08:13:00] [ERROR] ❌ TEST FAILED: Failure Check | Error: Error: expect(received).toBe(expected) // Object.is equality
+
+Expected: 2
+Received: 1
+[2026-08-01 08:13:58] [ERROR] ❌ TEST FAILED: Failure Check | Error: Error: expect(received).toBe(expected) // Object.is equality
+
+Expected: 2
+Received: 1
+[2026-08-02 23:38:23] [ERROR] ❌ TEST FAILED: valid user "lockedOut" can log in | Error: Error: expect(received).toBeTruthy()
+
+Received: false
+[2026-08-02 23:41:10] [ERROR] ❌ TEST FAILED: valid user "lockedOut" can log in | Error: Error: expect(received).toBeTruthy()
+
+Received: false
+[2026-08-02 23:45:00] [ERROR] ❌ TEST FAILED: Login Test - lockedOut | Error: Error: toHaveText can be only used with Locator object, was called with undefined
+[2026-08-02 23:46:45] [ERROR] ❌ TEST FAILED: Login Test - lockedOut | Error: TypeError: (0 , _baseFixture.expect)(...).to is not a function
+[2026-08-03 07:24:54] [ERROR] Login failed: Error: locator.fill: value: expected string, got undefined
+[2026-08-03 07:24:54] [ERROR] Login failed: Error: locator.fill: value: expected string, got undefined
+[2026-08-03 07:24:54] [ERROR] Login failed: Error: locator.fill: value: expected string, got undefined
+[2026-08-03 07:24:54] [ERROR] Login failed: Error: locator.fill: value: expected string, got undefined
+[2026-08-03 07:25:19] [ERROR] Login failed: Error: locator.fill: value: expected string, got undefined
+[2026-08-03 07:25:19] [ERROR] Login failed: Error: locator.fill: value: expected string, got undefined
+[2026-08-03 07:25:19] [ERROR] Login failed: Error: locator.fill: value: expected string, got undefined
+[2026-08-03 07:25:19] [ERROR] Login failed: Error: locator.fill: value: expected string, got undefined
+[2026-08-03 07:26:44] [ERROR] Login failed: Error: locator.fill: value: expected string, got undefined
+[2026-08-03 07:26:45] [ERROR] Login failed: Error: locator.fill: value: expected string, got undefined
+[2026-08-03 07:26:45] [ERROR] Login failed: Error: locator.fill: value: expected string, got undefined
+[2026-08-03 07:26:45] [ERROR] Login failed: Error: locator.fill: value: expected string, got undefined
