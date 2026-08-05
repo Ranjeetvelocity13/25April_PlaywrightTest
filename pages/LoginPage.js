@@ -27,6 +27,7 @@ class LoginPage extends BasePage {
     async login(username, passowrd) {
         Logger.step(2, 'Performing login flow');
         Logger.step(3, 'Performing  DashBoard flow');
+        Logger.step(4, 'Performing  DashBoard flow');
 
         try {
             await this.fill(this.usernameInput, username);
